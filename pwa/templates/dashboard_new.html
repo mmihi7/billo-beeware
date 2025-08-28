@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billo - Restaurant Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4e73df;
+            --success: #1cc88a;
+            --info: #36b9cc;
+            --warning: #f6c23e;
+            --danger: #e74a3b;
+        }
+        .sidebar {
+            min-height: 100vh;
+            background: linear-gradient(180deg, var(--primary) 10%, #224abe 100%);
+            color: white;
+        }
+        .sidebar .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            padding: 0.75rem 1rem;
+            margin: 0.25rem 1rem;
+            border-radius: 0.35rem;
+        }
+        .sidebar .nav-link:hover, .sidebar .nav-link.active {
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .card {
+            border: none;
+            border-radius: 0.35rem;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.1);
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 col-lg-2 d-md-block bg-primary sidebar">
+                <div class="position-sticky pt-3">
+                    <div class="text-center mb-4">
+                        <h4 class="text-white">Billo</h4>
+                    </div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#dashboard" data-bs-toggle="tab">
+                                <i class="fas fa-tachometer-alt"></i> Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu" data-bs-toggle="tab">
+                                <i class="fas fa-utensils"></i> Menu Management
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#qrcode" data-bs-toggle="tab">
+                                <i class="fas fa-qrcode"></i> QR Code
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#waiters" data-bs-toggle="tab">
+                                <i class="fas fa-user-tie"></i> Waiters
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#business-hours" data-bs-toggle="tab">
+                                <i class="fas fa-clock"></i> Business Hours
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <div>
+                        <h1 class="h2 mb-0">Dashboard</h1>
+                        <div class="d-flex align-items-center mt-2">
+                            <span class="badge {% if business_hours.is_open %}bg-success{% else %}bg-danger{% endif %} me-2">
+                                {% if business_hours.is_open %}
+                                    <i class="fas fa-door-open me-1"></i> Open Now
+                                {% else %}
+                                    <i class="fas fa-door-closed me-1"></i> Closed
+                                {% endif %}
+                            </span>
+                            <small class="text-muted">
+                                {% if business_hours.is_open %}
+                                    Closes at {{ business_hours.next_open_time }}
+                                {% else %}
+                                    Reopens at {{ business_hours.next_open_time }}
+                                {% endif %}
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content">
+                    <!-- Dashboard Tab -->
+                    <div class="tab-pane fade show active" id="dashboard">
+                        <div class="row">
+                            <div class="col-md-3 mb-4">
+                                <div class="card border-left-primary shadow h-100 py-2">
+                                    <div class="card-body">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col mr-2">
+                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                    Active Tabs</div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">12</div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-table fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-4">
+                                <div class="card border-left-success shadow h-100 py-2">
+                                    <div class="card-body">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col mr-2">
+                                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                    Today's Orders</div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">24</div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-shopping-cart fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Active Tabs Section -->
+                        <div class="card mt-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i> Active Tabs
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Tab #</th>
+                                                <th>Status</th>
+                                                <th>Customer</th>
+                                                <th>Total</th>
+                                                <th>Waiter</th>
+                                                <th>Opened At</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for tab in active_tabs %}
+                                            <tr>
+                                                <td>Tab {{ tab.tab_number }}</td>
+                                                <td>
+                                                    <span class="badge {% if tab.status == 'ordering' %}bg-warning{% elif tab.status == 'dining' %}bg-info{% else %}bg-danger{% endif %}">
+                                                        {{ tab.status|replace('_', ' ')|title }}
+                                                    </span>
+                                                </td>
+                                                <td>{{ tab.customer }}</td>
+                                                <td>${{ "%.2f"|format(tab.total) }}</td>
+                                                <td>{{ tab.waiter }}</td>
+                                                <td>{{ tab.created_at }}</td>
+                                                <td>
+                                                    <button class="btn btn-sm btn-outline-primary">
+                                                        <i class="fas fa-eye"></i> View
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Management Tab -->
+                    <div class="tab-pane fade" id="menu">
+                        <div class="card mb-4">
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-utensils me-1"></i> Menu Items</span>
+                                <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#addMenuItemModal">
+                                    <i class="fas fa-plus me-1"></i> Add Item
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Category</th>
+                                            <th>Price</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Margherita Pizza</td>
+                                            <td>Mains</td>
+                                            <td>$12.99</td>
+                                            <td><span class="badge bg-success">Available</span></td>
+                                            <td>
+                                                <button class="btn btn-sm btn-outline-primary"><i class="fas fa-edit"></i></button>
+                                                <button class="btn btn-sm btn-outline-danger"><i class="fas fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- QR Code Tab -->
+                    <div class="tab-pane fade" id="qrcode">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-qrcode me-1"></i> QR Code Generator
+                            </div>
+                            <div class="card-body text-center">
+                                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://billo.app/restaurant/1234/menu" 
+                                     alt="QR Code" class="img-fluid mb-3">
+                                <div class="mt-3">
+                                    <button class="btn btn-primary">
+                                        <i class="fas fa-download me-1"></i> Download QR Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Business Hours Tab -->
+                    <div class="tab-pane fade" id="business-hours">
+                        <div class="card">
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">Business Hours</h5>
+                                <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#editBusinessHoursModal">
+                                    <i class="fas fa-edit me-1"></i> Edit Hours
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Day</th>
+                                                <th>Opening Time</th>
+                                                <th>Closing Time</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="businessHoursTable">
+                                            <!-- Filled by JavaScript -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Waiters Tab -->
+                    <div class="tab-pane fade" id="waiters">
+                        <div class="card">
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <div>
+                                    <i class="fas fa-user-tie me-1"></i> Waiters Management
+                                </div>
+                                <div>
+                                    <a href="/waiters" class="btn btn-sm btn-primary me-2">
+                                        <i class="fas fa-home me-1"></i> Waiters Home
+                                    </a>
+                                    <button class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#addWaiterModal">
+                                        <i class="fas fa-plus me-1"></i> Add Waiter
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>PIN</th>
+                                            <th>Last Login</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for waiter in all_waiters %}
+                                        <tr>
+                                            <td>{{ waiter.name }}</td>
+                                            <td><code>{{ waiter.pin }}</code></td>
+                                            <td>{{ waiter.lastLogin }}</td>
+                                            <td>
+                                                <div class="btn-group" role="group">
+                                                    <div class="form-check form-switch me-2">
+                                                        <input class="form-check-input toggle-waiter-active" type="checkbox" 
+                                                               data-waiter-id="{{ waiter.id }}" 
+                                                               id="toggleWaiter{{ waiter.id }}" 
+                                                               {% if waiter.is_active %}checked{% endif %}>
+                                                        <label class="form-check-label" for="toggleWaiter{{ waiter.id }}">
+                                                            <span class="d-none">{{ 'Active' if waiter.is_active else 'Inactive' }}</span>
+                                                        </label>
+                                                    </div>
+                                                    <button class="btn btn-sm btn-outline-primary" title="Edit"><i class="fas fa-edit"></i></button>
+                                                    <button class="btn btn-sm btn-outline-danger" title="Delete"><i class="fas fa-trash"></i></button>
+                                                    <button class="btn btn-sm btn-outline-secondary" title="Reset PIN"><i class="fas fa-key"></i></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Active Tabs Tab -->
+                    <div class="tab-pane fade" id="tabs">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i> Active Tabs
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Table #</th>
+                                            <th>Status</th>
+                                            <th>Customer</th>
+                                            <th>Total</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>T05</td>
+                                            <td><span class="badge bg-warning">Ordering</span></td>
+                                            <td>Walk-in</td>
+                                            <td>$45.50</td>
+                                            <td><button class="btn btn-sm btn-outline-primary">View</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Add Waiter Modal -->
+    <div class="modal fade" id="addWaiterModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add New Waiter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">4-digit PIN</label>
+                            <input type="password" class="form-control" maxlength="4" pattern="\d{4}" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Business Hours Tab -->
+    <div class="tab-pane fade" id="business-hours">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Business Hours</h5>
+                <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#editBusinessHoursModal">
+                    <i class="fas fa-edit me-1"></i> Edit Hours
+                </button>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Opening Time</th>
+                                <th>Closing Time</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="businessHoursTable">
+                            <!-- Filled by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Business Hours Modal -->
+    <div class="modal fade" id="editBusinessHoursModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Business Hours</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="businessHoursForm">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Day</th>
+                                        <th>Open</th>
+                                        <th>Close</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="businessHoursFormBody">
+                                    <!-- Filled by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="saveBusinessHours">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Menu Item Modal -->
+    <div class="modal fade" id="addMenuItemModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Menu Item</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Item Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Category</label>
+                            <select class="form-select" required>
+                                <option>Starters</option>
+                                <option>Mains</option>
+                                <option>Desserts</option>
+                                <option>Drinks</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Price ($)</label>
+                            <input type="number" step="0.01" class="form-control" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Add Item</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <!-- Success Toast -->
+        <div id="statusToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-success text-white">
+                <strong class="me-auto">Success</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                <span id="toastMessage">Operation completed successfully</span>
+            </div>
+        </div>
+        
+        <!-- Error Toast -->
+        <div id="errorToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-danger text-white">
+                <strong class="me-auto">Error</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                <span id="errorMessage">An error occurred</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', path='/js/business-hours.js') }}"></script>
+    <script>
+        // Initialize tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        // Handle waiter active toggle
+        document.addEventListener('change', async function(e) {
+            if (e.target && e.target.classList.contains('toggle-waiter-active')) {
+                const waiterId = e.target.dataset.waiterId;
+                const isActive = e.target.checked;
+                const row = e.target.closest('tr');
+                
+                try {
+                    // Show loading state
+                    const originalState = e.target.checked;
+                    e.target.disabled = true;
+                    
+                    // Make API call to update waiter status
+                    const response = await fetch(`/api/waiters/${waiterId}/status`, {
+                        method: 'PATCH',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${localStorage.getItem('access_token')}`
+                        },
+                        body: JSON.stringify({ is_active: isActive })
+                    });
+                    
+                    if (!response.ok) {
+                        throw new Error('Failed to update waiter status');
+                    }
+                    
+                    const data = await response.json();
+                    
+                    if (data.success) {
+                        // Update UI to reflect the change
+                        const statusBadge = row.querySelector('.badge');
+                        if (statusBadge) {
+                            statusBadge.textContent = isActive ? 'Available' : 'Unavailable';
+                            statusBadge.className = `badge bg-${isActive ? 'success' : 'danger'}`;
+                        }
+                        
+                        // Show success message
+                        const toast = new bootstrap.Toast(document.getElementById('statusToast'));
+                        const toastMessage = document.getElementById('toastMessage');
+                        toastMessage.textContent = `Waiter ${isActive ? 'activated' : 'deactivated'} successfully`;
+                        toast.show();
+                    } else {
+                        throw new Error(data.message || 'Failed to update waiter status');
+                    }
+                } catch (error) {
+                    console.error('Error updating waiter status:', error);
+                    // Revert the toggle on error
+                    e.target.checked = !isActive;
+                    
+                    // Show error message
+                    const toast = new bootstrap.Toast(document.getElementById('errorToast'));
+                    const errorMessage = document.getElementById('errorMessage');
+                    errorMessage.textContent = error.message || 'Failed to update waiter status';
+                    toast.show();
+                } finally {
+                    // Re-enable the toggle
+                    e.target.disabled = false;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

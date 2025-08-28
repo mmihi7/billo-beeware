@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Billo - Restaurant Management{% endblock %}</title>
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Billo">
+    <link rel="apple-touch-icon" href="/static/images/icon-192x192.png">
+    <link rel="manifest" href="/static/manifest.json">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* Global currency styling */
+        .currency::before {
+            content: 'KES ';
+            font-weight: 500;
+        }
+        .price {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .price::before {
+            content: 'KES ';
+            font-weight: 500;
+        }
+        .amount {
+            font-weight: 500;
+        }
+        .amount::before {
+            content: 'KES ';
+            font-weight: 500;
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
+    
+    <!-- PWA Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/static/sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <nav>
+                <div class="logo">
+                    <a href="/">Billo</a>
+                </div>
+                <div class="nav-links">
+                    <a href="/dashboard" class="{% if request.url.path == '/dashboard' %}active{% endif %}">Dashboard</a>
+                    <a href="/tables" class="{% if request.url.path == '/tables' %}active{% endif %}">Tables</a>
+                    <a href="/menu" class="{% if request.url.path == '/menu' %}active{% endif %}">Menu</a>
+                    <a href="/orders" class="{% if request.url.path == '/orders' %}active{% endif %}">Orders</a>
+                    <form action="/logout" method="post" class="logout-form">
+                        <button type="submit" class="btn-logout">
+                            <i class="fas fa-sign-out-alt"></i> Logout
+                        </button>
+                    </form>
+                </div>
+            </nav>
+            <style>
+                .nav-links {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    width: 100%;
+                }
+                .logout-form {
+                    margin-left: auto;
+                    display: flex;
+                    align-items: center;
+                }
+                .btn-logout {
+                    background: none;
+                    border: 1px solid #e74c3c;
+                    color: #e74c3c;
+                    padding: 0.5rem 1rem;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    font-size: 0.9rem;
+                    transition: all 0.2s ease;
+                }
+                .btn-logout:hover {
+                    background-color: #f8d7da;
+                    color: #c0392b;
+                }
+                .nav-links a.active {
+                    color: #4f46e5;
+                    font-weight: 500;
+                    position: relative;
+                }
+                .nav-links a.active::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -6px;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background-color: #4f46e5;
+                }
+            </style>
+            {% if request.url.path != '/' and request.url.path != '/login' %}
+            <div class="user-menu">
+                <span class="username">
+                    {% if data and data.user %}{{ data.user.username }}{% else %}User{% endif %}
+                </span>
+                <div class="dropdown">
+                    <button class="dropdown-toggle">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-user me-2"></i> Profile
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="/logout" class="dropdown-item text-danger">
+                            <i class="fas fa-sign-out-alt me-2"></i> Logout
+                        </a>
+                    </div>
+                    <style>
+                        .dropdown-item.text-danger {
+                            color: #e74c3c !important;
+                        }
+                        .dropdown-item.text-danger:hover {
+                            background-color: #f8d7da;
+                        }
+                        .dropdown-divider {
+                            border-top: 1px solid #eee;
+                            margin: 0.5rem 0;
+                        }
+                    </style>
+                </div>
+            </div>
+            {% endif %}
+        </header>
+        
+        <main class="app-main">
+            {% block content %}{% endblock %}
+        </main>
+        
+        {% if request.url.path != '/' and request.url.path != '/login' %}
+        <footer class="app-footer">
+            <p>&copy; 2025 Billo. All rights reserved.</p>
+        </footer>
+        {% endif %}
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="/static/js/main.js"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

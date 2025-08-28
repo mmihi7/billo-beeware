@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="welcome-container">
+    <div class="logo-container">
+        <img src="/static/images/icon-192x192.png" alt="Billo Logo" class="app-logo">
+    </div>
+    <div class="welcome-message">
+        <h2>Welcome to Billo</h2>
+        <p>Restaurant Management System</p>
+    </div>
+    
+    <div class="auth-buttons">
+        <a href="/login" class="btn btn-primary">Login</a>
+        <a href="/signup" class="btn btn-secondary">Sign Up</a>
+    </div>
+</div>
+{% endblock %}

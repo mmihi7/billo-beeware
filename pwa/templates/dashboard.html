@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - {{ data.restaurant_name }}{% endblock %}
+
+{% block content %}
+<div class="dashboard">
+    <h1>Dashboard</h1>
+    
+    <!-- Stats Cards -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-value">{{ data.stats.tables_occupied }}/{{ data.stats.tables_occupied + data.stats.tables_available }}</div>
+            <div class="stat-label">Tables Occupied</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">{{ data.stats.orders_today }}</div>
+            <div class="stat-label">Orders Today</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">KSh {{ "%0.2f"|format(data.stats.revenue_today / 100) }}</div>
+            <div class="stat-label">Today's Revenue</div>
+        </div>
+    </div>
+
+    <!-- Active Tables -->
+    <div class="section">
+        <h2>Active Tables</h2>
+        <div class="tables-grid">
+            {% for table in data.active_tables %}
+            <div class="table-card {{ table.status }}">
+                <h3>Table {{ table.number }}</h3>
+                <div class="table-status">{{ table.status|replace('_', ' ')|title }}</div>
+                <div class="table-orders">{{ table.order_count }} order{% if table.order_count != 1 %}s{% endif %}</div>
+                <button class="btn btn-sm btn-view" onclick="viewTable({{ table.id }})">View</button>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Recent Orders -->
+    <div class="section">
+        <h2>Recent Orders</h2>
+        <div class="orders-list">
+            {% for order in data.recent_orders %}
+            <div class="order-item">
+                <div class="order-info">
+                    <span class="order-id">#{{ order.id }}</span>
+                    <span class="order-table">Table {{ order.table }}</span>
+                    <span class="order-items">{{ order.items }} item{% if order.items != 1 %}s{% endif %}</span>
+                </div>
+                <div class="order-status {{ order.status }}">
+                    {{ order.status|title }}
+                </div>
+                <div class="order-time">{{ order.time }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- Quick Actions -->
+<div class="quick-actions">
+    <button class="btn btn-primary" onclick="newOrder()">New Order</button>
+    <button class="btn" onclick="viewMenu()">View Menu</button>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function viewTable(tableId) {
+    // Will be implemented later
+    console.log('Viewing table', tableId);
+}
+
+function newOrder() {
+    // Will be implemented later
+    console.log('Creating new order');
+}
+
+function viewMenu() {
+    // Will be implemented later
+    console.log('Viewing menu');
+}
+</script>
+{% endblock %}
