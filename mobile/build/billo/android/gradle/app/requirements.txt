@@ -1,13 +1,18 @@
-# Generated 2025-08-31 13:33:34.816691
+# Generated 2025-08-31 20:24:40.366962
 toga-core==0.4.7
 toga-android==0.4.7
 rubicon-java==0.2.6
 travertino==0.3.0
 colosseum==0.2.0
-python-dotenv==1.0.0
-segno==1.5.3
+segno==1.6.6
+httpx==0.23.3
 pydantic==1.10.15
-supabase==2.*
-httpx==0.24.*
 python-jose[cryptography]==3.3.0
 python-multipart==0.0.5
+requests==2.31.0
+supabase==2.4.0
+gotrue==2.4.2
+postgrest==0.16.0
+realtime>=1.0.3,<2.0.0
+storage3==0.5.3
+supafunc==0.3.3

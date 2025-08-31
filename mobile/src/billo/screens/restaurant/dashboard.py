@@ -10,11 +10,11 @@ class RestaurantDashboard:
         self.menu_items = {}
         self.current_order = []
         
-        # Main container
-        self.box = toga.Box(style=Pack(direction=COLUMN, flex=1))
+        # Main container with padding
+        self.box = toga.Box(style=Pack(direction=COLUMN, padding=10, flex=1))
         
         # Header with restaurant name and cart
-        self.header = toga.Box(style=Pack(direction=ROW, padding=10, background_color='#0d47a1'))
+        self.header = toga.Box(style=Pack(direction=ROW, padding=15, background_color='#0d47a1'))
         
         # Restaurant title
         self.title_label = toga.Label(
@@ -33,16 +33,16 @@ class RestaurantDashboard:
         self.header.add(self.title_label)
         self.header.add(self.cart_btn)
         
-        # Create a table for menu items
+        # Create a table for menu items with padding
         self.table = toga.Table(
             headings=['Name', 'Price', 'Description', 'Action'],
-            style=Pack(flex=1),
+            style=Pack(flex=1, padding=5),
             on_select=self.on_item_selected
         )
         
-        # Add loading indicator
-        self.loading_box = toga.Box(style=Pack(direction=COLUMN, alignment='center', flex=1))
-        self.loading_box.add(toga.Label("Loading menu...", style=Pack(padding=10)))
+        # Add loading indicator with proper spacing
+        self.loading_box = toga.Box(style=Pack(direction=COLUMN, alignment='center', flex=1, padding=20))
+        self.loading_box.add(toga.Label("Loading menu...", style=Pack(padding=20)))
         
         # Cart view (initially hidden)
         self.cart_view = self.create_cart_view()

@@ -1,0 +1,495 @@
+Date/Time:       2025-08-31 16:26:27 
+Command line:    C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts\briefcase build android -v
+
+OS Release:      Windows 11
+OS Version:      10.0.26100
+Architecture:    AMD64
+Platform:        Windows-11-10.0.26100-SP0
+
+Python exe:      C:\Users\mwene\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+Python version:  3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.25
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+	ALLUSERSPROFILE=C:\ProgramData
+	ANDROID_HOME=C:\Users\mwene\Android
+	APPDATA=C:\Users\mwene\AppData\Roaming
+	BUNDLED_DEBUGPY_PATH=c:\Users\mwene\.windsurf\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy
+	CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+	CHOCOLATEYLASTPATHUPDATE=133927841604868154
+	CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_15056_RAPJYFOBHZQHMDYD
+	COLORTERM=truecolor
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=MIHI-PC
+	COMSPEC=C:\Windows\system32\cmd.exe
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	GIT_ASKPASS=********************
+	GRADLE_HOME=C:\Users\mwene\Gradle\gradle
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\mwene
+	JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot
+	LANG=en_US.UTF-8
+	LOCALAPPDATA=C:\Users\mwene\AppData\Local
+	LOGONSERVER=\\MIHI-PC
+	NUMBER_OF_PROCESSORS=8
+	NVM_HOME=C:\Users\mwene\AppData\Local\nvm
+	NVM_SYMLINK=C:\nvm4w\nodejs
+	ONEDRIVE=C:\Users\mwene\OneDrive
+	ONEDRIVECONSUMER=C:\Users\mwene\OneDrive
+	ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+	OS=Windows_NT
+	PAGER=cat
+	PATH=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;c:\Users\mwene\AppData\Local\Programs\cursor\resources\app\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mwene\.ollama\models;C:\Users\mwene\AppData\Local\Microsoft\WindowsApps;C:\Users\mwene\AppData\Local\Programs\Windsurf\bin;C:\Users\mwene\AppData\Local\Programs\Ollama;c:\Users\mwene\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\mwene\AppData\Local\Programs\Python\Python312;C:\Users\mwene\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts;C:\ProgramData\anaconda3\Scripts\anaconda.exe;C:\Users\mwene\espeak-ng;C:\Program Files\eSpeak NG\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda (anaconda3)\Anaconda PowerShell Prompt.lnk;C:\Users\mwene\mingw32\bin;C:\Users\mwene\ffmpeg\bin;C:\Users\mwene\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\eSpeak NG\espeak-ng.exe;C:\Program Files\rhvoice.org\RHVoice\lib\rhvoicesvr.dll;C:\ProgramData\chocolatey\bin;C:\Users\mwene\supabase_cli;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Users\mwene\Gradle\gradle\bin;C:\Users\mwene\Android\cmdline-tools\latest\bin;C:\Users\mwene\Android\platform-tools;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\mwene\Android\tools;C:\Users\mwene\Android\platform-tools;C:\Program Files\Docker\Docker\resources\bin;C:\Android\platform-tools;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\mwene\AppData\Local\pnpm;C:\Users\mwene\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\mwene\AppData\Local\Programs\Python\Python311\;C:\Users\mwene\.local\bin;C:\Users\mwene\AppData\Roaming\npm;C:\Users\mwene\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\mwene\.windsurf\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\scripts\noConfigScripts
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+	PNPM_HOME=C:\Users\mwene\AppData\Local\pnpm
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=8c01
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PSMODULEPATH=C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	PYDEVD_DISABLE_FILE_VALIDATION=1
+	PYTHONUSERBASE=C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\Windows
+	TEMP=C:\Users\mwene\AppData\Local\Temp
+	TERM_PROGRAM=vscode
+	TERM_PROGRAM_VERSION=1.99.3
+	TMP=C:\Users\mwene\AppData\Local\Temp
+	USERDOMAIN=MIHI-PC
+	USERDOMAIN_ROAMINGPROFILE=MIHI-PC
+	USERNAME=mwene
+	USERPROFILE=C:\Users\mwene
+	VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\mwene\.windsurf\extensions\ms-python.debugpy-2025.6.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-328eeba0cb9598c8.txt
+	VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+	VSCODE_GIT_ASKPASS_MAIN=********************
+	VSCODE_GIT_ASKPASS_NODE=********************
+	VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-950926f738-sock
+	VSCODE_INJECTION=1
+	WINDIR=C:\Windows
+	ZES_ENABLE_SYSMAN=1
+
+pyproject.toml:
+[tool.poetry]
+name = "billo"
+version = "0.1.0"
+description = "Customer Tab Management System"
+authors = ["Mihi"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "billo", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+# Development/runtime deps not tied to Android packaging
+briefcase = {version = ">=0.3.25,<0.4.0", extras = ["android"]}
+
+[tool.poetry.group.dev.dependencies]
+briefcase = {extras = ["android"], version = "^0.3.25"}
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# -------------------------------------------------------------------
+# Briefcase configuration
+# -------------------------------------------------------------------
+[tool.briefcase]
+project_name = "Billo"
+bundle = "com.billo"
+version = "0.1.0"
+author = "Mihi"
+author_email = "conversationapps@gmail.com"
+description = "Customer Tab Management System"
+license = {text = "MIT"}
+
+[tool.briefcase.app.billo]
+formal_name = "Billo"
+description = "Customer Tab Management System"
+sources = ["src/billo"]
+icon = "../shared/assets/images/logo.png"
+package = "billo"
+
+requires = [
+    "toga-core==0.4.7",
+    "toga-android==0.4.7",
+    "rubicon-java==0.2.6",
+    "travertino==0.3.0",
+    "colosseum==0.2.0",
+    "gotrue==1.3.0",
+    "supabase==1.0.3",
+    "httpx==0.25.2",
+    "postgrest==0.10.3",
+
+    "python-dotenv==1.0.0",
+    "segno==1.5.3",   # 🔄 fixed: use a version available in Chaquopy
+    "pydantic==1.10.15",
+    "supabase==2.*",
+    "httpx==0.24.*",
+    "python-jose[cryptography]==3.3.0",
+    "python-multipart==0.0.5",
+]
+
+[tool.briefcase.app.billo.android]
+permissions = [
+    "INTERNET",
+    "ACCESS_NETWORK_STATE",
+    "CAMERA",
+    "ACCESS_FINE_LOCATION",
+    "ACCESS_COARSE_LOCATION"
+]
+
+Briefcase Log:
+[16:26:14]                                                                                                                                                               java.py:111
+           [Java JDK] Evaluating JAVA_HOME...                                                                                                                            java.py:111
+           JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot                                                                                             java.py:112
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     'C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin\javac' -version                                                                    subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     \\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile                                                                                        subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     javac 17.0.16                                                                                                                                   subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Using JDK at C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot                                                                                          java.py:259
+                                                                                                                                                                  android_sdk.py:270
+           [Android SDK] Evaluating ANDROID_HOME...                                                                                                               android_sdk.py:270
+           ANDROID_HOME=C:\Users\mwene\Android                                                                                                                    android_sdk.py:271
+                                                                                                                                                                  android_sdk.py:490
+           [Android SDK] Installing Android Command-Line Tools 19.0...                                                                                            android_sdk.py:490
+           Using Android SDK at C:\Users\mwene\Android                                                                                                            android_sdk.py:494
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     'C:\Users\mwene\Android\cmdline-tools\latest\bin\sdkmanager.bat' 'cmdline-tools;19.0'                                                           subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     \\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile                                                                                        subprocess.py:838
+[16:26:25] >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Using Android SDK at C:\Users\mwene\Android                                                                                                            android_sdk.py:375
+                                                                                                                                                                       gradle.py:319
+           [billo] Updating app metadata...                                                                                                                            gradle.py:319
+           Setting main module... started                                                                                                                              gradle.py:302
+           Setting main module... done                                                                                                                                 gradle.py:302
+                                                                                                                                                                       gradle.py:322
+           [billo] Building Android APK...                                                                                                                             gradle.py:322
+           Building... started                                                                                                                                         gradle.py:323
+           Android emulator is already installed.                                                                                                                 android_sdk.py:650
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     '\\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile\build\billo\android\gradle\gradlew.bat' --console plain assembleDebug                 subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     \\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile\build\billo\android\gradle                                                             subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     ANDROID_HOME=C:\Users\mwene\Android                                                                                                             subprocess.py:838
+           >>>     ANDROID_SDK_ROOT=C:\Users\mwene\Android                                                                                                         subprocess.py:838
+           >>>     JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot                                                                               subprocess.py:838
+           '\\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile\build\billo\android\gradle'                                                                   subprocess.py:195
+           CMD.EXE was started with the above path as the current directory.                                                                                       subprocess.py:195
+           UNC paths are not supported.  Defaulting to Windows directory.                                                                                          subprocess.py:195
+           Exception in thread "main" java.lang.RuntimeException: Wrapper properties file                                                                          subprocess.py:195
+           '\Ubuntu\home\mwenesi\billo-project\mobile\build\billo\android\gradle\gradle\wrapper\gradle-wrapper.properties' does not exist.                                          
+                   at org.gradle.wrapper.WrapperExecutor.forWrapperPropertiesFile(WrapperExecutor.java:43)                                                         subprocess.py:195
+                   at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:60)                                                                         subprocess.py:195
+[16:26:26] >>> Return code: 1                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Building... errored                                                                                                                                         gradle.py:323
+                                                                                                                                                                      __main__.py:42
+           Error while building project.                                                                                                                              __main__.py:43
+           Saving log... started                                                                                                                                      console.py:438
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\platforms\android\gradle.py │
+│                                                                                                                                                                                  │
+│   322 │   │   self.console.info("Building Android APK...", prefix=app.app_name)                                                                                                  │
+│   323 │   │   with self.console.wait_bar("Building..."):                                                                                                                         │
+│   324 │   │   │   try:                                                                                                                                                           │
+│ ❱ 325 │   │   │   │   self.run_gradle(app, ["assembleDebug"])                                                                                                                    │
+│   326 │   │   │   except subprocess.CalledProcessError as e:                                                                                                                     │
+│   327 │   │   │   │   raise BriefcaseCommandError("Error while building project.") from e                                                                                        │
+│   328                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                                │
+│ │    app = <com.billo.billo v0.1.0 AppConfig>                                                   │                                                                                │
+│ │ kwargs = {}                                                                                   │                                                                                │
+│ │   self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x000002062021D5E0> │                                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\platforms\android\gradle.py │
+│                                                                                                                                                                                  │
+│   116 │   │   self.tools.android_sdk.verify_emulator()                                                                                                                           │
+│   117 │   │                                                                                                                                                                      │
+│   118 │   │   gradlew = "gradlew.bat" if self.tools.host_os == "Windows" else "gradlew"                                                                                          │
+│ ❱ 119 │   │   self.tools.subprocess.run(                                                                                                                                         │
+│   120 │   │   │   # Windows needs the full path to `gradlew`; macOS & Linux can find it                                                                                          │
+│   121 │   │   │   # via `./gradlew`. For simplicity of implementation, we always provide                                                                                         │
+│   122 │   │   │   # the full path.                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │     app = <com.billo.billo v0.1.0 AppConfig>                                                   │                                                                               │
+│ │    args = ['assembleDebug']                                                                    │                                                                               │
+│ │ gradlew = 'gradlew.bat'                                                                        │                                                                               │
+│ │    self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x000002062021D5E0> │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\integrations\subprocess.py: │
+│                                                                                                                                                                                  │
+│   139 │   │   # Run subprocess command with or without console control                                                                                                           │
+│   140 │   │   if remove_dynamic_elements:                                                                                                                                        │
+│   141 │   │   │   with sub.tools.console.release_console_control():                                                                                                              │
+│ ❱ 142 │   │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                              │
+│   143 │   │   else:                                                                                                                                                              │
+│   144 │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                                  │
+│   145                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────╮                                │
+│ │                    args = [                                                                                                                   │                                │
+│ │                           │   WindowsPath('//wsl.localhost/Ubuntu/home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew.bat'), │                                │
+│ │                           │   '--console',                                                                                                    │                                │
+│ │                           │   'plain',                                                                                                        │                                │
+│ │                           │   'assembleDebug'                                                                                                 │                                │
+│ │                           ]                                                                                                                   │                                │
+│ │              executable = '\\\\wsl.localhost\\Ubuntu\\home\\mwenesi\\billo-project\\mobile\\build\\billo\\android\\gra'+15                    │                                │
+│ │ remove_dynamic_elements = True                                                                                                                │                                │
+│ │                     sub = <briefcase.integrations.subprocess.Subprocess object at 0x00000206205B48F0>                                         │                                │
+│ │            wrapped_args = ()                                                                                                                  │                                │
+│ │          wrapped_kwargs = {                                                                                                                   │                                │
+│ │                           │   'env': {                                                                                                        │                                │
+│ │                           │   │   'ANDROID_HOME': 'C:\\Users\\mwene\\Android',                                                                │                                │
+│ │                           │   │   'ANDROID_SDK_ROOT': 'C:\\Users\\mwene\\Android',                                                            │                                │
+│ │                           │   │   'JAVA_HOME': 'C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot'                                   │                                │
+│ │                           │   },                                                                                                              │                                │
+│ │                           │   'cwd': WindowsPath('//wsl.localhost/Ubuntu/home/mwenesi/billo-project/mobile/build/billo/android/gradle'),      │                                │
+│ │                           │   'check': True,                                                                                                  │                                │
+│ │                           │   'encoding': 'CP1252'                                                                                            │                                │
+│ │                           }                                                                                                                   │                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\integrations\subprocess.py: │
+│                                                                                                                                                                                  │
+│   536 │   │   # caller sets stream_output=False, then ensure_console_is_safe() will                                                                                              │
+│   537 │   │   # disable any dynamic console elements while the command runs.                                                                                                     │
+│   538 │   │   if stream_output:                                                                                                                                                  │
+│ ❱ 539 │   │   │   return self._run_and_stream_output(args, filter_func=filter_func, **kwargs)                                                                                    │
+│   540 │   │                                                                                                                                                                      │
+│   541 │   │   # Can't filter non-streamed output.                                                                                                                                │
+│   542 │   │   if filter_func:                                                                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────────────────╮      │
+│ │          args = [WindowsPath('//wsl.localhost/Ubuntu/home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew.bat'), '--console', 'plain', 'assembleDebug'] │      │
+│ │   filter_func = None                                                                                                                                                    │      │
+│ │        kwargs = {                                                                                                                                                       │      │
+│ │                 │   'env': {                                                                                                                                            │      │
+│ │                 │   │   'ANDROID_HOME': 'C:\\Users\\mwene\\Android',                                                                                                    │      │
+│ │                 │   │   'ANDROID_SDK_ROOT': 'C:\\Users\\mwene\\Android',                                                                                                │      │
+│ │                 │   │   'JAVA_HOME': 'C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot'                                                                       │      │
+│ │                 │   },                                                                                                                                                  │      │
+│ │                 │   'cwd': WindowsPath('//wsl.localhost/Ubuntu/home/mwenesi/billo-project/mobile/build/billo/android/gradle'),                                          │      │
+│ │                 │   'check': True,                                                                                                                                      │      │
+│ │                 │   'encoding': 'CP1252'                                                                                                                                │      │
+│ │                 }                                                                                                                                                       │      │
+│ │          self = <briefcase.integrations.subprocess.Subprocess object at 0x00000206205B48F0>                                                                             │      │
+│ │ stream_output = True                                                                                                                                                    │      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯      │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\integrations\subprocess.py: │
+│                                                                                                                                                                                  │
+│   612 │   │   self._log_return_code(return_code)                                                                                                                                 │
+│   613 │   │                                                                                                                                                                      │
+│   614 │   │   if check and return_code:                                                                                                                                          │
+│ ❱ 615 │   │   │   raise subprocess.CalledProcessError(return_code, args, stderr=stderr)                                                                                          │
+│   616 │   │                                                                                                                                                                      │
+│   617 │   │   return subprocess.CompletedProcess(args, return_code, stderr=stderr)                                                                                               │
+│   618                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────────────╮        │
+│ │        args = [WindowsPath('//wsl.localhost/Ubuntu/home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew.bat'), '--console', 'plain', 'assembleDebug'] │        │
+│ │       check = True                                                                                                                                                    │        │
+│ │ filter_func = None                                                                                                                                                    │        │
+│ │      kwargs = {                                                                                                                                                       │        │
+│ │               │   'env': {                                                                                                                                            │        │
+│ │               │   │   'ANDROID_HOME': 'C:\\Users\\mwene\\Android',                                                                                                    │        │
+│ │               │   │   'ANDROID_SDK_ROOT': 'C:\\Users\\mwene\\Android',                                                                                                │        │
+│ │               │   │   'JAVA_HOME': 'C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot'                                                                       │        │
+│ │               │   },                                                                                                                                                  │        │
+│ │               │   'cwd': WindowsPath('//wsl.localhost/Ubuntu/home/mwenesi/billo-project/mobile/build/billo/android/gradle'),                                          │        │
+│ │               │   'encoding': 'CP1252',                                                                                                                               │        │
+│ │               │   'stdout': -1,                                                                                                                                       │        │
+│ │               │   'stderr': -2,                                                                                                                                       │        │
+│ │               │   'bufsize': 1                                                                                                                                        │        │
+│ │               }                                                                                                                                                       │        │
+│ │     process = <Popen: returncode: 1 args: ['\\\\wsl.localhost\\Ubuntu\\home\\mwenesi\\bill...>                                                                        │        │
+│ │ return_code = 1                                                                                                                                                       │        │
+│ │        self = <briefcase.integrations.subprocess.Subprocess object at 0x00000206205B48F0>                                                                             │        │
+│ │      stderr = None                                                                                                                                                    │        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command '[WindowsPath('//wsl.localhost/Ubuntu/home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew.bat'), '--console', 'plain', 'assembleDebug']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\__main__.py:27 in main      │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                         │
+│ │       command = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x000002062021D5E0> │                                                                         │
+│ │       console = <briefcase.console.Console object at 0x000002061BE65580>                             │                                                                         │
+│ │             e = BriefcaseCommandError('Error while building project.')                               │                                                                         │
+│ │ extra_cmdline = ['-v']                                                                               │                                                                         │
+│ │       options = {                                                                                    │                                                                         │
+│ │                 │   'update': False,                                                                 │                                                                         │
+│ │                 │   'update_requirements': False,                                                    │                                                                         │
+│ │                 │   'update_support': False,                                                         │                                                                         │
+│ │                 │   'update_stub': False,                                                            │                                                                         │
+│ │                 │   'update_resources': False,                                                       │                                                                         │
+│ │                 │   'no_update': False,                                                              │                                                                         │
+│ │                 │   'test_mode': False                                                               │                                                                         │
+│ │                 }                                                                                    │                                                                         │
+│ │     overrides = {}                                                                                   │                                                                         │
+│ │        result = 200                                                                                  │                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                         │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\commands\build.py:154 in __ │
+│                                                                                                                                                                                  │
+│   151 │   │                                                                                                                                                                      │
+│   152 │   │   state = None                                                                                                                                                       │
+│   153 │   │   for _, app_obj in sorted(apps_to_build.items()):                                                                                                                   │
+│ ❱ 154 │   │   │   state = self._build_app(                                                                                                                                       │
+│   155 │   │   │   │   app_obj,                                                                                                                                                   │
+│   156 │   │   │   │   update=update,                                                                                                                                             │
+│   157 │   │   │   │   update_requirements=update_requirements,                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ──────────────────────────────────────────────────╮                                                                   │
+│ │                   _ = 'billo'                                                                              │                                                                   │
+│ │                 app = None                                                                                 │                                                                   │
+│ │            app_name = None                                                                                 │                                                                   │
+│ │             app_obj = <com.billo.billo v0.1.0 AppConfig>                                                   │                                                                   │
+│ │       apps_to_build = {'billo': <com.billo.billo v0.1.0 AppConfig>}                                        │                                                                   │
+│ │           no_update = False                                                                                │                                                                   │
+│ │             options = {}                                                                                   │                                                                   │
+│ │                self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x000002062021D5E0> │                                                                   │
+│ │               state = None                                                                                 │                                                                   │
+│ │           test_mode = False                                                                                │                                                                   │
+│ │              update = False                                                                                │                                                                   │
+│ │ update_requirements = False                                                                                │                                                                   │
+│ │    update_resources = False                                                                                │                                                                   │
+│ │         update_stub = False                                                                                │                                                                   │
+│ │      update_support = False                                                                                │                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                   │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\commands\build.py:90 in _bu │
+│                                                                                                                                                                                  │
+│    87 │   │                                                                                                                                                                      │
+│    88 │   │   self.verify_app(app)                                                                                                                                               │
+│    89 │   │                                                                                                                                                                      │
+│ ❱  90 │   │   state = self.build_app(app, **full_options(state, options))                                                                                                        │
+│    91 │   │                                                                                                                                                                      │
+│    92 │   │   qualifier = " (test mode)" if app.test_mode else ""                                                                                                                │
+│    93 │   │   self.console.info(                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ──────────────────────────────────────────────────╮                                                                   │
+│ │                 app = <com.billo.billo v0.1.0 AppConfig>                                                   │                                                                   │
+│ │           no_update = False                                                                                │                                                                   │
+│ │             options = {}                                                                                   │                                                                   │
+│ │                self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x000002062021D5E0> │                                                                   │
+│ │               state = None                                                                                 │                                                                   │
+│ │              update = False                                                                                │                                                                   │
+│ │ update_requirements = False                                                                                │                                                                   │
+│ │    update_resources = False                                                                                │                                                                   │
+│ │         update_stub = False                                                                                │                                                                   │
+│ │      update_support = False                                                                                │                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                   │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\platforms\android\gradle.py │
+│                                                                                                                                                                                  │
+│   324 │   │   │   try:                                                                                                                                                           │
+│   325 │   │   │   │   self.run_gradle(app, ["assembleDebug"])                                                                                                                    │
+│   326 │   │   │   except subprocess.CalledProcessError as e:                                                                                                                     │
+│ ❱ 327 │   │   │   │   raise BriefcaseCommandError("Error while building project.") from e                                                                                        │
+│   328                                                                                                                                                                            │
+│   329                                                                                                                                                                            │
+│   330 class GradleRunCommand(GradleMixin, RunCommand):                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                                │
+│ │    app = <com.billo.billo v0.1.0 AppConfig>                                                   │                                                                                │
+│ │ kwargs = {}                                                                                   │                                                                                │
+│ │   self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x000002062021D5E0> │                                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Error while building project.
+           Collecting extra information for log... started                                                                                                            console.py:473
+                                                                                                                                                                      console.py:477
+           Extra information:                                                                                                                                         console.py:478
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     'C:\Users\mwene\Android\cmdline-tools\19.0\bin\sdkmanager.bat' --list_installed                                                                 subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     \\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile                                                                                        subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     ANDROID_HOME=C:\Users\mwene\Android                                                                                                             subprocess.py:838
+           >>>     ANDROID_SDK_ROOT=C:\Users\mwene\Android                                                                                                         subprocess.py:838
+           >>>     JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot                                                                               subprocess.py:838
+[16:26:27] >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     '\\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile'                                                                                      subprocess.py:838
+           >>>     CMD.EXE was started with the above path as the current directory.                                                                               subprocess.py:838
+           >>>     UNC paths are not supported.  Defaulting to Windows directory.                                                                                  subprocess.py:838
+           >>>     Loading package information...                                                                                                                  subprocess.py:838
+           >>>     Loading local repository...                                                                                                                     subprocess.py:838
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:838
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:838
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:838
+           >>>                                                                                                                                                     subprocess.py:838
+           >>>     Installed packages:                                                                                                                             subprocess.py:838
+           >>>       Path                                        | Version | Description                                | Location                                 subprocess.py:838
+           >>>       -------                                     | ------- | -------                                    | -------                                  subprocess.py:838
+           >>>       build-tools;33.0.1                          | 33.0.1  | Android SDK Build-Tools 33.0.1             | build-tools\33.0.1                       subprocess.py:838
+           >>>       build-tools;34.0.0                          | 34.0.0  | Android SDK Build-Tools 34                 | build-tools\34.0.0                       subprocess.py:838
+           >>>       build-tools;35.0.0                          | 35.0.0  | Android SDK Build-Tools 35                 | build-tools\35.0.0                       subprocess.py:838
+           >>>       cmdline-tools;19.0                          | 19.0    | Android SDK Command-line Tools             | cmdline-tools\19.0                       subprocess.py:838
+           >>>       emulator                                    | 36.1.9  | Android Emulator                           | emulator                                 subprocess.py:838
+           >>>       platform-tools                              | 35.0.2  | Android SDK Platform-Tools                 | platform-tools                           subprocess.py:838
+           >>>       platforms;android-33                        | 3       | Android SDK Platform 33                    | platforms\android-33                     subprocess.py:838
+           >>>       platforms;android-34                        | 3       | Android SDK Platform 34                    | platforms\android-34                     subprocess.py:838
+           >>>       platforms;android-34-ext10                  | 1       | Android SDK Platform 34-ext10              | platforms\android-34-ext10               subprocess.py:838
+           >>>       platforms;android-34-ext11                  | 1       | Android SDK Platform 34-ext11              | platforms\android-34-ext11               subprocess.py:838
+           >>>       platforms;android-34-ext12                  | 1       | Android SDK Platform 34-ext12              | platforms\android-34-ext12               subprocess.py:838
+           >>>       platforms;android-34-ext8                   | 1       | Android SDK Platform 34-ext8               | platforms\android-34-ext8                subprocess.py:838
+           >>>       platforms;android-35                        | 2       | Android SDK Platform 35                    | platforms\android-35                     subprocess.py:838
+           >>>       platforms;android-35-ext14                  | 1       | Android SDK Platform 35-ext14              | platforms\android-35-ext14               subprocess.py:838
+           >>>       platforms;android-35-ext15                  | 1       | Android SDK Platform 35-ext15              | platforms\android-35-ext15               subprocess.py:838
+           >>>       platforms;android-36                        | 2       | Android SDK Platform 36                    | platforms\android-36                     subprocess.py:838
+           >>>       platforms;android-36-ext18                  | 1       | Android SDK Platform 36-ext18              | platforms\android-36-ext18               subprocess.py:838
+           >>>       platforms;android-36-ext19                  | 1       | Android SDK Platform 36-ext19              | platforms\android-36-ext19               subprocess.py:838
+           >>>       platforms;android-Baklava                   | 5       | Android SDK Platform Baklava               | platforms\android-Baklava                subprocess.py:838
+           >>>       sources;android-34                          | 2       | Sources for Android 34                     | sources\android-34                       subprocess.py:838
+           >>>       sources;android-35                          | 1       | Sources for Android 35                     | sources\android-35                       subprocess.py:838
+           >>>       sources;android-36                          | 1       | Sources for Android 36                     | sources\android-36                       subprocess.py:838
+           >>>       system-images;android-36;google_apis;x86_64 | 6       | Google APIs Intel x86_64 Atom System Image |                                          subprocess.py:838
+           system-images\android-36\google_apis\x86_64                                                                                                                              
+           >>>                                                                                                                                                     subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Collecting extra information for log... done                                                                                                               console.py:473

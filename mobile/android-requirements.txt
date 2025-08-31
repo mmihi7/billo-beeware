@@ -1,5 +1,7 @@
 toga-core==0.4.7
 toga-android==0.4.7
-rubicon-java==0.5.0
+rubicon-java==0.2.6
 travertino==0.3.0
 colosseum==0.2.0
+requests==2.31.0
+python-dotenv==1.0.0

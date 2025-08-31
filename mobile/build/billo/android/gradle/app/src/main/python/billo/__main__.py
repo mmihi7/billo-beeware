@@ -36,7 +36,10 @@ def main():
         
         # Create and run the app
         logger.info("Creating Billo app instance...")
-        app = Billo()
+        app = Billo(
+            formal_name="Billo",
+            app_id="com.billo.mobile"
+        )
         logger.info("Starting main loop...")
         return app.main_loop()
         

@@ -5,19 +5,35 @@ from toga.style.pack import COLUMN, ROW, CENTER
 
 def create_welcome_screen(app_instance):
     # Create the main box for the screen
-    welcome_box = toga.Box(style=Pack(direction=COLUMN, margin=10, align_items=CENTER, flex=1))
+    welcome_box = toga.Box(style=Pack(
+        direction=COLUMN,
+        padding=20,
+        alignment=CENTER,
+        flex=1
+    ))
 
     # Add a label for the welcome message
     welcome_label = toga.Label(
         "Welcome to Billo!",
-        style=Pack(margin=(10, 10), font_size=20, text_align=CENTER, flex=1)
+        style=Pack(
+            padding=(10, 10),
+            font_size=20,
+            text_align=CENTER,
+            flex=1
+        )
     )
 
     # Add a button to proceed to the next screen (Terms)
     next_button = toga.Button(
         "Get Started",
-        on_press=lambda widget: app_instance.show_terms_screen(), # We'll define this method in app.py
-        style=Pack(margin=10, width=200)
+        on_press=lambda widget: app_instance.show_terms_screen(),
+        style=Pack(
+            padding=(35, 15, 15, 15),  # Increased top padding to create space
+            width=300,
+            background_color='#1E88E5',
+            color='white',
+            font_weight='bold'
+        )
     )
 
     # Add widgets to the box

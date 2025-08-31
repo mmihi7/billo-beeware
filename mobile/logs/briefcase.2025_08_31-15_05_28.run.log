@@ -1,0 +1,396 @@
+Date/Time:       2025-08-31 15:05:29 
+Command line:    C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts\briefcase run android -d emulator-5554
+
+OS Release:      Windows 11
+OS Version:      10.0.26100
+Architecture:    AMD64
+Platform:        Windows-11-10.0.26100-SP0
+
+Python exe:      C:\Users\mwene\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+Python version:  3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.25
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+	ALLUSERSPROFILE=C:\ProgramData
+	ANDROID_HOME=C:\Users\mwene\Android
+	APPDATA=C:\Users\mwene\AppData\Roaming
+	BUNDLED_DEBUGPY_PATH=c:\Users\mwene\.windsurf\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy
+	CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+	CHOCOLATEYLASTPATHUPDATE=133927841604868154
+	CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_15056_RAPJYFOBHZQHMDYD
+	COLORTERM=truecolor
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=MIHI-PC
+	COMSPEC=C:\Windows\system32\cmd.exe
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	GIT_ASKPASS=********************
+	GRADLE_HOME=C:\Users\mwene\Gradle\gradle
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\mwene
+	JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot
+	LANG=en_US.UTF-8
+	LOCALAPPDATA=C:\Users\mwene\AppData\Local
+	LOGONSERVER=\\MIHI-PC
+	NUMBER_OF_PROCESSORS=8
+	NVM_HOME=C:\Users\mwene\AppData\Local\nvm
+	NVM_SYMLINK=C:\nvm4w\nodejs
+	ONEDRIVE=C:\Users\mwene\OneDrive
+	ONEDRIVECONSUMER=C:\Users\mwene\OneDrive
+	ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+	OS=Windows_NT
+	PAGER=cat
+	PATH=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;c:\Users\mwene\AppData\Local\Programs\cursor\resources\app\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mwene\.ollama\models;C:\Users\mwene\AppData\Local\Microsoft\WindowsApps;C:\Users\mwene\AppData\Local\Programs\Windsurf\bin;C:\Users\mwene\AppData\Local\Programs\Ollama;c:\Users\mwene\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\mwene\AppData\Local\Programs\Python\Python312;C:\Users\mwene\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts;C:\ProgramData\anaconda3\Scripts\anaconda.exe;C:\Users\mwene\espeak-ng;C:\Program Files\eSpeak NG\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda (anaconda3)\Anaconda PowerShell Prompt.lnk;C:\Users\mwene\mingw32\bin;C:\Users\mwene\ffmpeg\bin;C:\Users\mwene\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\eSpeak NG\espeak-ng.exe;C:\Program Files\rhvoice.org\RHVoice\lib\rhvoicesvr.dll;C:\ProgramData\chocolatey\bin;C:\Users\mwene\supabase_cli;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Users\mwene\Gradle\gradle\bin;C:\Users\mwene\Android\cmdline-tools\latest\bin;C:\Users\mwene\Android\platform-tools;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\mwene\Android\tools;C:\Users\mwene\Android\platform-tools;C:\Program Files\Docker\Docker\resources\bin;C:\Android\platform-tools;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\mwene\AppData\Local\pnpm;C:\Users\mwene\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\mwene\AppData\Local\Programs\Python\Python311\;C:\Users\mwene\.local\bin;C:\Users\mwene\AppData\Roaming\npm;C:\Users\mwene\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\mwene\.windsurf\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\scripts\noConfigScripts
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+	PNPM_HOME=C:\Users\mwene\AppData\Local\pnpm
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=8c01
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PSMODULEPATH=C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	PYDEVD_DISABLE_FILE_VALIDATION=1
+	PYTHONUSERBASE=C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\Windows
+	TEMP=C:\Users\mwene\AppData\Local\Temp
+	TERM_PROGRAM=vscode
+	TERM_PROGRAM_VERSION=1.99.3
+	TMP=C:\Users\mwene\AppData\Local\Temp
+	USERDOMAIN=MIHI-PC
+	USERDOMAIN_ROAMINGPROFILE=MIHI-PC
+	USERNAME=mwene
+	USERPROFILE=C:\Users\mwene
+	VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\mwene\.windsurf\extensions\ms-python.debugpy-2025.6.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-328eeba0cb9598c8.txt
+	VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+	VSCODE_GIT_ASKPASS_MAIN=********************
+	VSCODE_GIT_ASKPASS_NODE=********************
+	VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-950926f738-sock
+	VSCODE_INJECTION=1
+	WINDIR=C:\Windows
+	ZES_ENABLE_SYSMAN=1
+
+pyproject.toml:
+[tool.poetry]
+name = "billo"
+version = "0.1.0"
+description = "Customer Tab Management System"
+authors = ["Mihi"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "billo", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+# Development/runtime deps not tied to Android packaging
+briefcase = {version = ">=0.3.25,<0.4.0", extras = ["android"]}
+
+[tool.poetry.group.dev.dependencies]
+briefcase = {extras = ["android"], version = "^0.3.25"}
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# -------------------------------------------------------------------
+# Briefcase configuration
+# -------------------------------------------------------------------
+[tool.briefcase]
+project_name = "Billo"
+bundle = "com.billo"
+version = "0.1.0"
+author = "Mihi"
+author_email = "conversationapps@gmail.com"
+description = "Customer Tab Management System"
+license = {text = "MIT"}
+
+[tool.briefcase.app.billo]
+formal_name = "Billo"
+description = "Customer Tab Management System"
+sources = ["src/billo"]
+icon = "../shared/assets/images/logo.png"
+package = "billo"
+
+requires = [
+    "toga-core==0.4.7",
+    "toga-android==0.4.7",
+    "rubicon-java==0.2.6",
+    "travertino==0.3.0",
+    "colosseum==0.2.0",
+
+    "python-dotenv==1.0.0",
+    "segno==1.5.3",   # 🔄 fixed: use a version available in Chaquopy
+    "pydantic==1.10.15",
+    "supabase==2.*",
+    "httpx==0.24.*",
+    "python-jose[cryptography]==3.3.0",
+    "python-multipart==0.0.5",
+]
+
+[tool.briefcase.app.billo.android]
+permissions = [
+    "INTERNET",
+    "ACCESS_NETWORK_STATE",
+    "CAMERA",
+    "ACCESS_FINE_LOCATION",
+    "ACCESS_COARSE_LOCATION"
+]
+
+Briefcase Log:
+[15:04:45]                                                                                                                                                               java.py:111
+           [Java JDK] Evaluating JAVA_HOME...                                                                                                                            java.py:111
+           JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot                                                                                             java.py:112
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     'C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin\javac' -version                                                                    subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     \\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile                                                                                        subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     javac 17.0.16                                                                                                                                   subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Using JDK at C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot                                                                                          java.py:259
+                                                                                                                                                                  android_sdk.py:270
+           [Android SDK] Evaluating ANDROID_HOME...                                                                                                               android_sdk.py:270
+           ANDROID_HOME=C:\Users\mwene\Android                                                                                                                    android_sdk.py:271
+                                                                                                                                                                  android_sdk.py:490
+           [Android SDK] Installing Android Command-Line Tools 19.0...                                                                                            android_sdk.py:490
+           Using Android SDK at C:\Users\mwene\Android                                                                                                            android_sdk.py:494
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     'C:\Users\mwene\Android\cmdline-tools\latest\bin\sdkmanager.bat' 'cmdline-tools;19.0'                                                           subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     \\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile                                                                                        subprocess.py:838
+[15:05:18] >>> Return code: 1                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Command '['C:\\Users\\mwene\\Android\\cmdline-tools\\latest\\bin\\sdkmanager.bat', 'cmdline-tools;19.0']' returned non-zero exit status 1.             android_sdk.py:512
+           Failed to install cmdline-tools;19.0                                                                                                                   android_sdk.py:513
+                                                                                                                                                                  android_sdk.py:299
+           *************************************************************************                                                                              android_sdk.py:299
+           ** WARNING: Incompatible Command-Line Tools Version                    **                                                                              android_sdk.py:299
+           *************************************************************************                                                                              android_sdk.py:299
+                                                                                                                                                                  android_sdk.py:299
+               The Android SDK specified by ANDROID_HOME at:                                                                                                      android_sdk.py:299
+                                                                                                                                                                  android_sdk.py:299
+               C:\Users\mwene\Android                                                                                                                             android_sdk.py:299
+                                                                                                                                                                  android_sdk.py:299
+               does not contain Command-Line Tools version 19.0. Briefcase requires                                                                               android_sdk.py:299
+               this version to be installed to use an external Android SDK.                                                                                       android_sdk.py:299
+                                                                                                                                                                  android_sdk.py:299
+               Use Android Studio's SDK Manager to install Command-Line Tools 19.0.                                                                               android_sdk.py:299
+                                                                                                                                                                  android_sdk.py:299
+               Briefcase will proceed using its own SDK instance.                                                                                                 android_sdk.py:299
+                                                                                                                                                                  android_sdk.py:299
+           *************************************************************************                                                                              android_sdk.py:299
+                                                                                                                                                                  android_sdk.py:361
+           [android_sdk] The Android SDK was not found; downloading and installing...                                                                             android_sdk.py:361
+           To use an existing Android SDK instance, specify its root directory path in the ANDROID_HOME environment variable.                                     android_sdk.py:365
+                                                                                                                                                                  android_sdk.py:369
+[15:05:20] Downloading commandlinetools-win-13114758_latest.zip...                                                                                                       file.py:227
+[15:05:26] Installing Android SDK Command-Line Tools 19.0... started                                                                                              android_sdk.py:418
+[15:05:27] Installing Android SDK Command-Line Tools 19.0... done                                                                                                 android_sdk.py:418
+           Removing older Android SDK packages... started                                                                                                         android_sdk.py:457
+           Removing older Android SDK packages... done                                                                                                            android_sdk.py:457
+                                                                                                                                                                  android_sdk.py:598
+           The Android tools provided by Google have license terms that you must accept                                                                           android_sdk.py:598
+           before you may use those tools.                                                                                                                        android_sdk.py:598
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     'C:\Users\mwene\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\cmdline-tools\19.0\bin\sdkmanager.bat' --licenses                       subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     \\wsl.localhost\Ubuntu\home\mwenesi\billo-project\mobile                                                                                        subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     ANDROID_HOME=C:\Users\mwene\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                             subprocess.py:838
+           >>>     ANDROID_SDK_ROOT=C:\Users\mwene\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                         subprocess.py:838
+           >>>     JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot                                                                               subprocess.py:838
+[15:05:28] >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                      __main__.py:42
+           You did not accept the Android SDK licenses. Please re-run the briefcase command                                                                           __main__.py:43
+           and accept the Android SDK license when prompted. You may need an Internet                                                                                 __main__.py:43
+           connection.                                                                                                                                                __main__.py:43
+           Saving log... started                                                                                                                                      console.py:438
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\__main__.py:27 in main      │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │       command = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000021A482B4C80>                                                                           │ │
+│ │       console = <briefcase.console.Console object at 0x0000021A45092390>                                                                                                     │ │
+│ │             e = BriefcaseCommandError('You did not accept the Android SDK licenses. Please re-run the briefcase command\nand accept the Android SDK license when prompted.   │ │
+│ │                 You may need an Internet\nconnection.\n')                                                                                                                    │ │
+│ │ extra_cmdline = ['-d', 'emulator-5554']                                                                                                                                      │ │
+│ │       options = {                                                                                                                                                            │ │
+│ │                 │   'appname': None,                                                                                                                                         │ │
+│ │                 │   'update': False,                                                                                                                                         │ │
+│ │                 │   'update_requirements': False,                                                                                                                            │ │
+│ │                 │   'update_support': False,                                                                                                                                 │ │
+│ │                 │   'update_stub': False,                                                                                                                                    │ │
+│ │                 │   'update_resources': False,                                                                                                                               │ │
+│ │                 │   'no_update': False,                                                                                                                                      │ │
+│ │                 │   'test_mode': False,                                                                                                                                      │ │
+│ │                 │   'device_or_avd': 'emulator-5554',                                                                                                                        │ │
+│ │                 │   'extra_emulator_args': None,                                                                                                                             │ │
+│ │                 │   ... +4                                                                                                                                                   │ │
+│ │                 }                                                                                                                                                            │ │
+│ │     overrides = {}                                                                                                                                                           │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\commands\run.py:296 in __ca │
+│                                                                                                                                                                                  │
+│   293 │   │                                                                                                                                                                      │
+│   294 │   │   # Confirm host compatibility, that all required tools are available,                                                                                               │
+│   295 │   │   # and that the app configuration is finalized.                                                                                                                     │
+│ ❱ 296 │   │   self.finalize(app, test_mode)                                                                                                                                      │
+│   297 │   │                                                                                                                                                                      │
+│   298 │   │   template_file = self.bundle_path(app)                                                                                                                              │
+│   299 │   │   exec_file = self.binary_executable_path(app)                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────────╮               │
+│ │                 app = <com.billo.billo v0.1.0 AppConfig>                                                                                                       │               │
+│ │             appname = None                                                                                                                                     │               │
+│ │           no_update = False                                                                                                                                    │               │
+│ │             options = {'device_or_avd': 'emulator-5554', 'extra_emulator_args': None, 'shutdown_on_exit': False, 'forward_ports': None, 'reverse_ports': None} │               │
+│ │         passthrough = []                                                                                                                                       │               │
+│ │                self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000021A482B4C80>                                                       │               │
+│ │           test_mode = False                                                                                                                                    │               │
+│ │              update = False                                                                                                                                    │               │
+│ │ update_requirements = False                                                                                                                                    │               │
+│ │    update_resources = False                                                                                                                                    │               │
+│ │         update_stub = False                                                                                                                                    │               │
+│ │      update_support = False                                                                                                                                    │               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯               │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\commands\base.py:701 in fin │
+│                                                                                                                                                                                  │
+│    698 │   │   │   to finalize. By default, all apps will be finalized.                                                                                                          │
+│    699 │   │   """                                                                                                                                                               │
+│    700 │   │   self.verify_host()                                                                                                                                                │
+│ ❱  701 │   │   self.verify_tools()                                                                                                                                               │
+│    702 │   │                                                                                                                                                                     │
+│    703 │   │   apps = self.apps.values() if app is None else [app]                                                                                                               │
+│    704 │   │   for app in apps:                                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │       app = <com.billo.billo v0.1.0 AppConfig>                                                 │                                                                               │
+│ │      self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000021A482B4C80> │                                                                               │
+│ │ test_mode = False                                                                              │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\platforms\android\gradle.py │
+│                                                                                                                                                                                  │
+│   331 │   description = "Run an Android debug APK on a device (physical or virtual)."                                                                                            │
+│   332 │                                                                                                                                                                          │
+│   333 │   def verify_tools(self):                                                                                                                                                │
+│ ❱ 334 │   │   super().verify_tools()                                                                                                                                             │
+│   335 │   │   self.tools.android_sdk.verify_emulator()                                                                                                                           │
+│   336 │                                                                                                                                                                          │
+│   337 │   def add_options(self, parser):                                                                                                                                         │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                    │
+│ │ self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000021A482B4C80> │                                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────╯                                                                                    │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\platforms\android\gradle.py │
+│                                                                                                                                                                                  │
+│   144 │   │   """Verify that the Android APK tools in `briefcase` will operate on this system,                                                                                   │
+│   145 │   │   downloading tools as needed."""                                                                                                                                    │
+│   146 │   │   super().verify_tools()                                                                                                                                             │
+│ ❱ 147 │   │   AndroidSDK.verify(tools=self.tools)                                                                                                                                │
+│   148 │   │   if not self.is_clone:                                                                                                                                              │
+│   149 │   │   │   self.console.add_log_file_extra(self.tools.android_sdk.list_packages)                                                                                          │
+│   150                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                    │
+│ │ self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000021A482B4C80> │                                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────╯                                                                                    │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\integrations\base.py:114 in │
+│                                                                                                                                                                                  │
+│   111 │   │   **kwargs,                                                                                                                                                          │
+│   112 │   ) -> ManagedToolT:                                                                                                                                                     │
+│   113 │   │   """Confirm the managed tool is installed and available."""                                                                                                         │
+│ ❱ 114 │   │   return super().verify(tools=tools, app=app, install=install, **kwargs)                                                                                             │
+│   115 │                                                                                                                                                                          │
+│   116 │   @abstractmethod                                                                                                                                                        │
+│   117 │   def exists(self) -> bool:                                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────── locals ────────────────────────────────────╮                                                                                               │
+│ │     app = None                                                                 │                                                                                               │
+│ │ install = True                                                                 │                                                                                               │
+│ │  kwargs = {}                                                                   │                                                                                               │
+│ │   tools = <briefcase.integrations.base.ToolCache object at 0x0000021A4822D6A0> │                                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────╯                                                                                               │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\integrations\base.py:78 in  │
+│                                                                                                                                                                                  │
+│    75 │   ) -> ToolT:                                                                          ╭─────────────────────────────────── locals ────────────────────────────────────╮ │
+│    76 │   │   """Confirm the tool is available and usable on the host platform."""             │    app = None                                                                 │ │
+│    77 │   │   cls.verify_host(tools=tools)                                                     │ kwargs = {'install': True}                                                    │ │
+│ ❱  78 │   │   tool = cls.verify_install(tools=tools, app=app, **kwargs)                        │  tools = <briefcase.integrations.base.ToolCache object at 0x0000021A4822D6A0> │ │
+│    79 │   │   return tool                                                                      ╰───────────────────────────────────────────────────────────────────────────────╯ │
+│    80 │                                                                                                                                                                          │
+│    81 │   @classmethod                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\integrations\android_sdk.py │
+│                                                                                                                                                                                  │
+│    370 │   │   │   │   sdk.install()                                                                                                                                             │
+│    371 │   │                                                                                                                                                                     │
+│    372 │   │   # Licences must be accepted to use the SDK                                                                                                                        │
+│ ❱  373 │   │   sdk.verify_license()                                                                                                                                              │
+│    374 │   │                                                                                                                                                                     │
+│    375 │   │   tools.console.debug(f"Using Android SDK at {sdk.root_path}")                                                                                                      │
+│    376 │   │   tools.android_sdk = sdk                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                       │
+│ │        install = True                                                                                  │                                                                       │
+│ │         kwargs = {'app': None}                                                                         │                                                                       │
+│ │            sdk = <briefcase.integrations.android_sdk.AndroidSDK object at 0x0000021A4857B6B0>          │                                                                       │
+│ │   sdk_root_env = 'C:\\Users\\mwene\\Android'                                                           │                                                                       │
+│ │  sdk_root_path = WindowsPath('C:/Users/mwene/AppData/Local/BeeWare/briefcase/Cache/tools/android_sdk') │                                                                       │
+│ │ sdk_source_env = 'ANDROID_HOME'                                                                        │                                                                       │
+│ │          tools = <briefcase.integrations.base.ToolCache object at 0x0000021A4822D6A0>                  │                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                       │
+│                                                                                                                                                                                  │
+│ C:\Users\mwene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\briefcase\integrations\android_sdk.py │
+│                                                                                                                                                                                  │
+│    621 │   │   │   ) from e                                                                                                                                                      │
+│    622 │   │                                                                                                                                                                     │
+│    623 │   │   if not license_path.exists():                                                                                                                                     │
+│ ❱  624 │   │   │   raise BriefcaseCommandError(                                                                                                                                  │
+│    625 │   │   │   │   """\                                                                                                                                                      │
+│    626 You did not accept the Android SDK licenses. Please re-run the briefcase command                                                                                          │
+│    627 and accept the Android SDK license when prompted. You may need an Internet                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────╮                                            │
+│ │ license_path = WindowsPath('C:/Users/mwene/AppData/Local/BeeWare/briefcase/Cache/tools/android_sdk/licenses/android-sdk-license') │                                            │
+│ │         self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x0000021A4857B6B0>                                       │                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: You did not accept the Android SDK licenses. Please re-run the briefcase command
+and accept the Android SDK license when prompted. You may need an Internet
+connection.
+

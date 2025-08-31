@@ -9,25 +9,25 @@ class RestaurantScreen:
         self.restaurant_name = restaurant_name
         
     def create(self):
-        # Main container
-        main_box = toga.Box(style=Pack(direction=COLUMN, flex=1, margin=10))
+        # Main container with padding
+        main_box = toga.Box(style=Pack(direction=COLUMN, flex=1, padding=10))
         
         # Header with tab number and restaurant name
-        header = toga.Box(style=Pack(direction=COLUMN, margin_bottom=10))
+        header = toga.Box(style=Pack(direction=COLUMN, padding_bottom=10))
         tab_label = toga.Label(
             f"Tab {self.tab_number}",
-            style=Pack(font_size=24, font_weight=BOLD, text_align=CENTER, margin_bottom=5)
+            style=Pack(font_size=24, font_weight=BOLD, text_align=CENTER, padding_bottom=5)
         )
         name_label = toga.Label(
             self.restaurant_name,
-            style=Pack(font_size=18, text_align=CENTER, margin_bottom=10)
+            style=Pack(font_size=18, text_align=CENTER, padding_bottom=10)
         )
         header.add(tab_label)
         header.add(name_label)
         
-        # Advertisement placeholder
+        # Advertisement placeholder with padding
         ad_box = toga.Box(
-            style=Pack(height=100, background_color="#f0f0f0", margin=10)
+            style=Pack(height=100, background_color="#f0f0f0", padding=10)
         )
         ad_label = toga.Label(
             "Advertisement",
@@ -38,7 +38,7 @@ class RestaurantScreen:
         # Orders list (placeholder)
         orders_label = toga.Label(
             "Your Orders",
-            style=Pack(font_weight=BOLD, margin_bottom=5)
+            style=Pack(font_weight=BOLD, padding_bottom=5)
         )
         orders_box = toga.Box(style=Pack(direction=COLUMN, flex=1))
         
@@ -49,26 +49,26 @@ class RestaurantScreen:
         ]
         
         for item in order_items:
-            order_item = toga.Label(item, style=Pack(margin_bottom=5))
+            order_item = toga.Label(item, style=Pack(padding_bottom=5))
             orders_box.add(order_item)
         
         # Total price
         total_label = toga.Label(
             "Total: KES 1400",
-            style=Pack(font_weight=BOLD, margin_top=10, margin_bottom=10)
+            style=Pack(font_weight=BOLD, padding=(10, 0, 10, 0))
         )
         
         # Payment button
         pay_button = toga.Button(
             "Pay Now",
             on_press=self.on_pay,
-            style=Pack(margin=15, padding=10, background_color="#4CAF50", color="white")
+            style=Pack(padding=15, background_color="#4CAF50", color="white")
         )
         
         # Message input
         message_input = toga.TextInput(
             placeholder="Add a note for your order...",
-            style=Pack(flex=1, margin=10)
+            style=Pack(flex=1, padding=10)
         )
         
         # Add all components to main box
