@@ -1,0 +1,788 @@
+Date/Time:       2025-08-29 05:00:29 
+Command line:    /home/mwenesi/billo-project/mobile/.venv/bin/briefcase build android
+
+OS Release:      Linux 6.6.87.2-microsoft-standard-WSL2
+OS Version:      #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+Architecture:    x86_64
+Platform:        Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+
+Python exe:      /home/mwenesi/billo-project/mobile/.venv/bin/python
+Python version:  3.10.18 (main, Jun  4 2025, 08:56:00) [GCC 13.3.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.25
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+	DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+	DISPLAY=:0
+	HOME=/home/mwenesi
+	HOSTTYPE=x86_64
+	LANG=C.UTF-8
+	LESSCLOSE=/usr/bin/lesspipe %s %s
+	LESSOPEN=| /usr/bin/lesspipe %s
+	LOGNAME=mwenesi
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+	NAME=MIHI-PC
+	OLDPWD=/home/mwenesi/billo-project/mobile
+	PATH=/home/mwenesi/billo-project/mobile/.venv/bin:/home/mwenesi/.cargo/bin:/home/mwenesi/billo-project/mobile/.venv/bin:/home/mwenesi/.local/bin:/home/mwenesi/.local/bin:/home/mwenesi/.local/bin:/home/mwenesi/.local/bin:/home/mwenesi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/Users/mwene/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/mwene/.ollama/models:/mnt/c/Users/mwene/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mwene/AppData/Local/Programs/Windsurf/bin:/mnt/c/Users/mwene/AppData/Local/Programs/Ollama:/mnt/c/Users/mwene/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python312:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/mwene/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/ProgramData/anaconda3/Scripts/anaconda.exe:/mnt/c/Users/mwene/espeak-ng:/mnt/c/Program Files/eSpeak NG/:/mnt/c/ProgramData/Microsoft/Windows/Start Menu/Programs/Anaconda (anaconda3)/Anaconda PowerShell Prompt.lnk:/mnt/c/Users/mwene/mingw32/bin:/mnt/c/Users/mwene/ffmpeg/bin:/mnt/c/Users/mwene/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Program Files/eSpeak NG/espeak-ng.exe:/mnt/c/Program Files/rhvoice.org/RHVoice/lib/rhvoicesvr.dll:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/mwene/supabase_cli:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.7.6-hotspot/bin:/mnt/c/Users/mwene/Gradle/gradle/bin:/mnt/c/Users/mwene/Android/cmdline-tools/latest/bin:/mnt/c/Users/mwene/Android/platform-tools:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mwene/Android/tools:/mnt/c/Users/mwene/Android/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Android/platform-tools:/mnt/c/Users/mwene/AppData/Local/pnpm:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/mwene/.local/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/mwene/.ollama/models:/mnt/c/Users/mwene/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mwene/AppData/Local/Programs/Windsurf/bin:/mnt/c/Users/mwene/AppData/Local/Programs/Ollama:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python312:/mnt/c/Users/mwene/AppData/Roaming/npm:/mnt/c/Users/mwene/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mwene/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/mwene/.windsurf/extensions/ms-python.debugpy-2025.6.0-win32-x64/bundled/scripts/noConfigScripts:/snap/bin
+	POETRY_ACTIVE=1
+	PS1=(billo-py3.10) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+	PULSE_SERVER=unix:/mnt/wslg/PulseServer
+	PWD=/home/mwenesi/billo-project/mobile
+	SHELL=/bin/bash
+	SHLVL=2
+	TERM=xterm-256color
+	USER=mwenesi
+	VIRTUAL_ENV=/home/mwenesi/billo-project/mobile/.venv
+	VIRTUAL_ENV_PROMPT=billo-py3.10
+	WAYLAND_DISPLAY=wayland-0
+	WSL2_GUI_APPS_ENABLED=1
+	WSLENV=
+	WSL_DISTRO_NAME=Ubuntu
+	WSL_INTEROP=/run/WSL/174991_interop
+	XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+	XDG_RUNTIME_DIR=/run/user/1000/
+	_=/home/mwenesi/.local/bin/poetry
+
+pyproject.toml:
+[tool.poetry]
+name = "billo"
+version = "0.1.0"
+description = "Billo - Restaurant Management System"
+authors = ["Mihi"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "billo", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+
+[tool.briefcase]
+project_name = "Billo"
+bundle = "com.billo"
+version = "0.1.0"
+author = "Mihi"
+author_email = "your.email@example.com"
+description = "Restaurant Management System"
+license = {file = "LICENSE"}
+
+[tool.briefcase.app.billo]
+formal_name = "Billo"
+description = "Restaurant Management System"
+sources = ["src/billo"]
+icon = "../shared/assets/images/logo.png"
+supported = true
+package = "billo"
+
+[tool.briefcase.app.billo.mobile]
+requires = [
+    "toga-android",
+    "supabase>=2.18.1",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.24.0",
+    "zxing-cpp>=2.0.0",
+    "numpy>=1.24.0",
+    "truststore>=0.10.1"
+]
+
+[tool.briefcase.app.billo.mobile.android]
+package_name = "com.billo"
+permissions = [
+    "INTERNET",
+    "ACCESS_NETWORK_STATE"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "billo"
+version = "0.1.0"
+description = "Restaurant Management System"
+authors = [
+    {name = "Mihi"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "briefcase>=0.3.25",
+    "toga-android>=0.4.0",
+    "supabase>=2.18.1",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.24.0",
+    "numpy>=1.24.0",
+    "zxing-cpp (>=2.0.0)"
+]
+
+Briefcase Log:
+[04:59:26] Using JDK at /home/mwenesi/.cache/briefcase/tools/java17                                                                                                      java.py:259
+           Using Android SDK at /home/mwenesi/.cache/briefcase/tools/android_sdk                                                                                  android_sdk.py:375
+                                                                                                                                                                       create.py:937
+           [billo] Generating application template...                                                                                                                  create.py:937
+                                                                                                                                                                       gradle.py:185
+           *************************************************************************                                                                                   gradle.py:185
+           ** WARNING: App does not define build_gradle_dependencies              **                                                                                   gradle.py:185
+           *************************************************************************                                                                                   gradle.py:185
+                                                                                                                                                                       gradle.py:185
+               The Android configuration for this app does not contain a                                                                                               gradle.py:185
+               `build_gradle_dependencies` definition. Briefcase will use a default                                                                                    gradle.py:185
+               value of:                                                                                                                                               gradle.py:185
+                                                                                                                                                                       gradle.py:185
+                   build_gradle_dependencies = [                                                                                                                       gradle.py:185
+                       "androidx.appcompat:appcompat:1.0.2",                                                                                                           gradle.py:185
+                       "androidx.constraintlayout:constraintlayout:1.1.3",                                                                                             gradle.py:185
+                       "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",                                                                                         gradle.py:185
+                   ]                                                                                                                                                   gradle.py:185
+                                                                                                                                                                       gradle.py:185
+               You should add this definition to the Android configuration                                                                                             gradle.py:185
+               of your project's pyproject.toml file. See:                                                                                                             gradle.py:185
+                                                                                                                                                                       gradle.py:185
+                   https://briefcase.readthedocs.io/en/stable/reference/platforms/android/gradle.html#build-gradle-dependencies                                        gradle.py:185
+                                                                                                                                                                       gradle.py:185
+               for more information.                                                                                                                                   gradle.py:185
+                                                                                                                                                                       gradle.py:185
+           *************************************************************************                                                                                   gradle.py:185
+                                                                                                                                                                       gradle.py:185
+           Using app template: https://github.com/beeware/briefcase-android-gradle-template.git, branch v0.3.25                                                         base.py:1241
+[04:59:27] Using existing template (sha 1abe20417fa00e959de536295c6bd686c3d0b302, updated Mon Jul 28 09:20:28 2025)                                                     base.py:1146
+                                                                                                                                                                       create.py:952
+           [billo] Installing support package...                                                                                                                       create.py:952
+           No support package required.                                                                                                                                create.py:323
+                                                                                                                                                                       create.py:970
+           [billo] Installing application code...                                                                                                                      create.py:970
+           Installing src/billo... started                                                                                                                             create.py:734
+           Installing src/billo... done                                                                                                                                create.py:734
+                                                                                                                                                                       create.py:973
+           [billo] Installing requirements...                                                                                                                          create.py:973
+           Writing requirements file... started                                                                                                                        create.py:532
+           Writing requirements file... done                                                                                                                           create.py:532
+                                                                                                                                                                       create.py:976
+           [billo] Installing application resources...                                                                                                                 create.py:976
+           Unable to find ../shared/assets/images/logo.png-round-48.png for 48px round application icon; using default                                                 create.py:823
+           Unable to find ../shared/assets/images/logo.png-round-72.png for 72px round application icon; using default                                                 create.py:823
+           Unable to find ../shared/assets/images/logo.png-round-96.png for 96px round application icon; using default                                                 create.py:823
+           Unable to find ../shared/assets/images/logo.png-round-144.png for 144px round application icon; using default                                               create.py:823
+           Unable to find ../shared/assets/images/logo.png-round-192.png for 192px round application icon; using default                                               create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-48.png for 48px square application icon; using default                                               create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-72.png for 72px square application icon; using default                                               create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-96.png for 96px square application icon; using default                                               create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-144.png for 144px square application icon; using default                                             create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-192.png for 192px square application icon; using default                                             create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-320.png for 320px square application icon; using default                                             create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-480.png for 480px square application icon; using default                                             create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-640.png for 640px square application icon; using default                                             create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-960.png for 960px square application icon; using default                                             create.py:823
+           Unable to find ../shared/assets/images/logo.png-square-1280.png for 1280px square application icon; using default                                           create.py:823
+           Unable to find ../shared/assets/images/logo.png-adaptive-108.png for 108px adaptive application icon; using default                                         create.py:823
+           Unable to find ../shared/assets/images/logo.png-adaptive-162.png for 162px adaptive application icon; using default                                         create.py:823
+           Unable to find ../shared/assets/images/logo.png-adaptive-216.png for 216px adaptive application icon; using default                                         create.py:823
+           Unable to find ../shared/assets/images/logo.png-adaptive-324.png for 324px adaptive application icon; using default                                         create.py:823
+           Unable to find ../shared/assets/images/logo.png-adaptive-432.png for 432px adaptive application icon; using default                                         create.py:823
+                                                                                                                                                                       create.py:981
+           [billo] Removing unneeded app content...                                                                                                                    create.py:981
+           Removing unneeded app bundle content... started                                                                                                             create.py:897
+           Removing directory app/src/main/python/billo/__pycache__                                                                                                    create.py:904
+           Removing directory app/src/main/python/billo/screens/__pycache__                                                                                            create.py:904
+           Removing directory app/src/main/python/billo/screens/home/__pycache__                                                                                       create.py:904
+           Removing directory app/src/main/python/billo/screens/customer/__pycache__                                                                                   create.py:904
+           Removing directory app/src/main/python/billo/screens/restaurant/__pycache__                                                                                 create.py:904
+           Removing directory app/src/main/python/billo/screens/onboarding/__pycache__                                                                                 create.py:904
+           Removing unneeded app bundle content... done                                                                                                                create.py:897
+                                                                                                                                                                       create.py:984
+           [billo] Created build/billo/android/gradle                                                                                                                  create.py:984
+                                                                                                                                                                       gradle.py:319
+           [billo] Updating app metadata...                                                                                                                            gradle.py:319
+           Setting main module... started                                                                                                                              gradle.py:302
+           Setting main module... done                                                                                                                                 gradle.py:302
+                                                                                                                                                                       gradle.py:322
+           [billo] Building Android APK...                                                                                                                             gradle.py:322
+           Building... started                                                                                                                                         gradle.py:323
+           Android emulator is already installed.                                                                                                                 android_sdk.py:650
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     /home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew --console plain assembleDebug                                             subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/mwenesi/billo-project/mobile/build/billo/android/gradle                                                                                   subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     ANDROID_HOME=/home/mwenesi/.cache/briefcase/tools/android_sdk                                                                                   subprocess.py:838
+           >>>     ANDROID_SDK_ROOT=/home/mwenesi/.cache/briefcase/tools/android_sdk                                                                               subprocess.py:838
+           >>>     JAVA_HOME=/home/mwenesi/.cache/briefcase/tools/java17                                                                                           subprocess.py:838
+[04:59:28] > Task :app:preBuild UP-TO-DATE                                                                                                                         subprocess.py:195
+           > Task :app:preDebugBuild UP-TO-DATE                                                                                                                    subprocess.py:195
+           > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE                                                                                                     subprocess.py:195
+           > Task :app:extractDebugPythonBuildPackages                                                                                                             subprocess.py:195
+[04:59:30]                                                                                                                                                         subprocess.py:195
+           > Task :app:generateDebugPythonRequirements                                                                                                             subprocess.py:195
+           Chaquopy: Installing for arm64-v8a                                                                                                                      subprocess.py:195
+           Looking in indexes: https://pypi.org/simple, https://chaquo.com/pypi-13.1                                                                               subprocess.py:195
+           Collecting briefcase>=0.3.25                                                                                                                            subprocess.py:195
+             Using cached briefcase-0.3.25-py3-none-any.whl (249 kB)                                                                                               subprocess.py:195
+           Collecting toga-android>=0.4.0                                                                                                                          subprocess.py:195
+             Using cached toga_android-0.5.2-py3-none-any.whl (69 kB)                                                                                              subprocess.py:195
+[04:59:31] Collecting supabase>=2.18.1                                                                                                                             subprocess.py:195
+             Using cached supabase-2.18.1-py3-none-any.whl (18 kB)                                                                                                 subprocess.py:195
+           Collecting python-dotenv>=1.0.0                                                                                                                         subprocess.py:195
+             Using cached python_dotenv-1.1.1-py3-none-any.whl (20 kB)                                                                                             subprocess.py:195
+           Collecting httpx>=0.24.0                                                                                                                                subprocess.py:195
+             Using cached httpx-0.28.1-py3-none-any.whl (73 kB)                                                                                                    subprocess.py:195
+[04:59:32] Collecting numpy>=1.24.0                                                                                                                                subprocess.py:195
+[04:59:33]   Using cached https://chaquo.com/pypi-13.1/numpy/numpy-1.26.2-0-cp310-cp310-android_21_arm64_v8a.whl (5.0 MB)                                          subprocess.py:195
+           Collecting zxing-cpp>=2.0.0                                                                                                                             subprocess.py:195
+             Using cached zxing_cpp-2.3.0.tar.gz (1.2 MB)                                                                                                          subprocess.py:195
+             Installing build dependencies: started                                                                                                                subprocess.py:195
+[04:59:42]   Installing build dependencies: finished with status 'done'                                                                                            subprocess.py:195
+             Getting requirements to build wheel: started                                                                                                          subprocess.py:195
+[04:59:43]   Getting requirements to build wheel: finished with status 'done'                                                                                      subprocess.py:195
+               Preparing wheel metadata: started                                                                                                                   subprocess.py:195
+               Preparing wheel metadata: finished with status 'done'                                                                                               subprocess.py:195
+[04:59:44] Collecting build>=0.10                                                                                                                                  subprocess.py:195
+             Using cached build-1.3.0-py3-none-any.whl (23 kB)                                                                                                     subprocess.py:195
+           Collecting GitPython<4.0,>=3.1                                                                                                                          subprocess.py:195
+             Using cached gitpython-3.1.45-py3-none-any.whl (208 kB)                                                                                               subprocess.py:195
+[04:59:45] Collecting psutil<8.0,>=5.9                                                                                                                             subprocess.py:195
+             Using cached psutil-7.0.0.tar.gz (497 kB)                                                                                                             subprocess.py:195
+             Installing build dependencies: started                                                                                                                subprocess.py:195
+[04:59:47]   Installing build dependencies: finished with status 'done'                                                                                            subprocess.py:195
+             Getting requirements to build wheel: started                                                                                                          subprocess.py:195
+[04:59:48]   Getting requirements to build wheel: finished with status 'done'                                                                                      subprocess.py:195
+               Preparing wheel metadata: started                                                                                                                   subprocess.py:195
+               Preparing wheel metadata: finished with status 'done'                                                                                               subprocess.py:195
+           Collecting tomli<3.0,>=2.0; python_version <= "3.10"                                                                                                    subprocess.py:195
+             Using cached tomli-2.2.1-py3-none-any.whl (14 kB)                                                                                                     subprocess.py:195
+[04:59:49] Collecting pip>=24.3                                                                                                                                    subprocess.py:195
+             Using cached pip-25.2-py3-none-any.whl (1.8 MB)                                                                                                       subprocess.py:195
+           Collecting cookiecutter<3.0,>=2.6.0                                                                                                                     subprocess.py:195
+             Using cached cookiecutter-2.6.0-py3-none-any.whl (39 kB)                                                                                              subprocess.py:195
+[04:59:50] Collecting platformdirs<5.0,>=2.6                                                                                                                       subprocess.py:195
+             Using cached platformdirs-4.4.0-py3-none-any.whl (18 kB)                                                                                              subprocess.py:195
+           Collecting python-dateutil>=2.9.0.post0                                                                                                                 subprocess.py:195
+             Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)                                                                                subprocess.py:195
+[04:59:51] Collecting tomli_w<2.0,>=1.0                                                                                                                            subprocess.py:195
+             Using cached tomli_w-1.2.0-py3-none-any.whl (6.7 kB)                                                                                                  subprocess.py:195
+           Collecting wheel>=0.37                                                                                                                                  subprocess.py:195
+             Using cached wheel-0.45.1-py3-none-any.whl (72 kB)                                                                                                    subprocess.py:195
+[04:59:52] Collecting setuptools>=60                                                                                                                               subprocess.py:195
+             Using cached setuptools-80.9.0-py3-none-any.whl (1.2 MB)                                                                                              subprocess.py:195
+           Collecting truststore>=0.10.1                                                                                                                           subprocess.py:195
+             Using cached truststore-0.10.4-py3-none-any.whl (18 kB)                                                                                               subprocess.py:195
+[04:59:53] Collecting rich<15.0,>=12.6                                                                                                                             subprocess.py:195
+             Using cached rich-14.1.0-py3-none-any.whl (243 kB)                                                                                                    subprocess.py:195
+           Collecting packaging>=24.2                                                                                                                              subprocess.py:195
+             Using cached packaging-25.0-py3-none-any.whl (66 kB)                                                                                                  subprocess.py:195
+           Collecting toga-core==0.5.2                                                                                                                             subprocess.py:195
+             Using cached toga_core-0.5.2-py3-none-any.whl (145 kB)                                                                                                subprocess.py:195
+[04:59:54] Collecting supabase-functions==0.10.1                                                                                                                   subprocess.py:195
+             Using cached supabase_functions-0.10.1-py3-none-any.whl (8.3 kB)                                                                                      subprocess.py:195
+           Collecting realtime==2.7.0                                                                                                                              subprocess.py:195
+             Using cached realtime-2.7.0-py3-none-any.whl (22 kB)                                                                                                  subprocess.py:195
+           Collecting storage3==0.12.1                                                                                                                             subprocess.py:195
+             Using cached storage3-0.12.1-py3-none-any.whl (18 kB)                                                                                                 subprocess.py:195
+[04:59:55] Collecting supabase-auth==2.12.3                                                                                                                        subprocess.py:195
+             Using cached supabase_auth-2.12.3-py3-none-any.whl (44 kB)                                                                                            subprocess.py:195
+           Collecting postgrest==1.1.1                                                                                                                             subprocess.py:195
+             Using cached postgrest-1.1.1-py3-none-any.whl (22 kB)                                                                                                 subprocess.py:195
+[04:59:56] Collecting httpcore==1.*                                                                                                                                subprocess.py:195
+             Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)                                                                                                  subprocess.py:195
+           Collecting idna                                                                                                                                         subprocess.py:195
+             Using cached idna-3.10-py3-none-any.whl (70 kB)                                                                                                       subprocess.py:195
+           Collecting anyio                                                                                                                                        subprocess.py:195
+             Using cached anyio-4.10.0-py3-none-any.whl (107 kB)                                                                                                   subprocess.py:195
+[04:59:57] Collecting certifi                                                                                                                                      subprocess.py:195
+             Using cached certifi-2025.8.3-py3-none-any.whl (161 kB)                                                                                               subprocess.py:195
+           Collecting chaquopy-libcxx>=11000                                                                                                                       subprocess.py:195
+             Using cached https://chaquo.com/pypi-13.1/chaquopy-libcxx/chaquopy_libcxx-180000-0-py3-none-android_24_arm64_v8a.whl (413 kB)                         subprocess.py:195
+[04:59:58] Collecting chaquopy-openblas>=0.2.20                                                                                                                    subprocess.py:195
+             Using cached https://chaquo.com/pypi-13.1/chaquopy-openblas/chaquopy_openblas-0.2.20-5-py3-none-android_21_arm64_v8a.whl (4.3 MB)                     subprocess.py:195
+           Collecting pyproject_hooks                                                                                                                              subprocess.py:195
+             Using cached pyproject_hooks-1.2.0-py3-none-any.whl (10 kB)                                                                                           subprocess.py:195
+[04:59:59] Collecting gitdb<5,>=4.0.1                                                                                                                              subprocess.py:195
+             Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)                                                                                                    subprocess.py:195
+           Collecting requests>=2.23.0                                                                                                                             subprocess.py:195
+             Using cached requests-2.32.5-py3-none-any.whl (64 kB)                                                                                                 subprocess.py:195
+           Collecting arrow                                                                                                                                        subprocess.py:195
+             Using cached arrow-1.3.0-py3-none-any.whl (66 kB)                                                                                                     subprocess.py:195
+[05:00:00] Collecting python-slugify>=4.0.0                                                                                                                        subprocess.py:195
+             Using cached python_slugify-8.0.4-py2.py3-none-any.whl (10 kB)                                                                                        subprocess.py:195
+           Collecting binaryornot>=0.4.4                                                                                                                           subprocess.py:195
+             Using cached binaryornot-0.4.4-py2.py3-none-any.whl (9.0 kB)                                                                                          subprocess.py:195
+[05:00:01] Collecting click<9.0.0,>=7.0                                                                                                                            subprocess.py:195
+             Using cached click-8.2.1-py3-none-any.whl (102 kB)                                                                                                    subprocess.py:195
+           Collecting pyyaml>=5.3.1                                                                                                                                subprocess.py:195
+             Using cached pyyaml-6.0.2.tar.gz (130 kB)                                                                                                             subprocess.py:195
+             Installing build dependencies: started                                                                                                                subprocess.py:195
+[05:00:06]   Installing build dependencies: finished with status 'done'                                                                                            subprocess.py:195
+             Getting requirements to build wheel: started                                                                                                          subprocess.py:195
+[05:00:07]   Getting requirements to build wheel: finished with status 'done'                                                                                      subprocess.py:195
+               Preparing wheel metadata: started                                                                                                                   subprocess.py:195
+               Preparing wheel metadata: finished with status 'done'                                                                                               subprocess.py:195
+[05:00:08] Collecting Jinja2<4.0.0,>=2.7                                                                                                                           subprocess.py:195
+             Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)                                                                                                   subprocess.py:195
+[05:00:09] Collecting six>=1.5                                                                                                                                     subprocess.py:195
+             Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)                                                                                                  subprocess.py:195
+           Collecting markdown-it-py>=2.2.0                                                                                                                        subprocess.py:195
+             Using cached markdown_it_py-4.0.0-py3-none-any.whl (87 kB)                                                                                            subprocess.py:195
+           Collecting pygments<3.0.0,>=2.13.0                                                                                                                      subprocess.py:195
+             Using cached pygments-2.19.2-py3-none-any.whl (1.2 MB)                                                                                                subprocess.py:195
+[05:00:10] Collecting travertino==0.5.2                                                                                                                            subprocess.py:195
+             Using cached travertino-0.5.2-py3-none-any.whl (24 kB)                                                                                                subprocess.py:195
+[05:00:11] Collecting strenum<0.5.0,>=0.4.15                                                                                                                       subprocess.py:195
+             Using cached StrEnum-0.4.15-py3-none-any.whl (8.9 kB)                                                                                                 subprocess.py:195
+           Collecting typing-extensions>=4.14.0                                                                                                                    subprocess.py:195
+             Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)                                                                                        subprocess.py:195
+[05:00:12] Collecting websockets<16,>=11                                                                                                                           subprocess.py:195
+             Using cached websockets-15.0.1-py3-none-any.whl (169 kB)                                                                                              subprocess.py:195
+           Collecting pydantic<3.0.0,>=2.11.7                                                                                                                      subprocess.py:195
+             Using cached pydantic-2.11.7-py3-none-any.whl (444 kB)                                                                                                subprocess.py:195
+[05:00:13] Collecting deprecation<3.0.0,>=2.1.0                                                                                                                    subprocess.py:195
+             Using cached deprecation-2.1.0-py2.py3-none-any.whl (11 kB)                                                                                           subprocess.py:195
+           Collecting pyjwt<3.0.0,>=2.10.1                                                                                                                         subprocess.py:195
+             Using cached PyJWT-2.10.1-py3-none-any.whl (22 kB)                                                                                                    subprocess.py:195
+           Collecting h11>=0.16                                                                                                                                    subprocess.py:195
+             Using cached h11-0.16.0-py3-none-any.whl (37 kB)                                                                                                      subprocess.py:195
+[05:00:14] Collecting sniffio>=1.1                                                                                                                                 subprocess.py:195
+             Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)                                                                                                   subprocess.py:195
+           Collecting exceptiongroup>=1.0.2; python_version < "3.11"                                                                                               subprocess.py:195
+             Using cached exceptiongroup-1.3.0-py3-none-any.whl (16 kB)                                                                                            subprocess.py:195
+           Collecting chaquopy-libgfortran>=4.9                                                                                                                    subprocess.py:195
+             Using cached https://chaquo.com/pypi-13.1/chaquopy-libgfortran/chaquopy_libgfortran-4.9-0-py3-none-android_21_arm64_v8a.whl (495 kB)                  subprocess.py:195
+[05:00:15] Collecting smmap<6,>=3.0.1                                                                                                                              subprocess.py:195
+             Using cached smmap-5.0.2-py3-none-any.whl (24 kB)                                                                                                     subprocess.py:195
+           Collecting urllib3<3,>=1.21.1                                                                                                                           subprocess.py:195
+             Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)                                                                                                  subprocess.py:195
+[05:00:16] Collecting charset_normalizer<4,>=2                                                                                                                     subprocess.py:195
+             Using cached charset_normalizer-3.4.3-py3-none-any.whl (53 kB)                                                                                        subprocess.py:195
+           Collecting types-python-dateutil>=2.8.10                                                                                                                subprocess.py:195
+             Using cached types_python_dateutil-2.9.0.20250822-py3-none-any.whl (17 kB)                                                                            subprocess.py:195
+[05:00:17] Collecting text-unidecode>=1.3                                                                                                                          subprocess.py:195
+             Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)                                                                                          subprocess.py:195
+           Collecting chardet>=3.0.2                                                                                                                               subprocess.py:195
+             Using cached chardet-5.2.0-py3-none-any.whl (199 kB)                                                                                                  subprocess.py:195
+           Collecting MarkupSafe>=2.0                                                                                                                              subprocess.py:195
+             Using cached markupsafe-3.0.2.tar.gz (20 kB)                                                                                                          subprocess.py:195
+             Installing build dependencies: started                                                                                                                subprocess.py:195
+[05:00:20]   Installing build dependencies: finished with status 'done'                                                                                            subprocess.py:195
+             Getting requirements to build wheel: started                                                                                                          subprocess.py:195
+             Getting requirements to build wheel: finished with status 'done'                                                                                      subprocess.py:195
+               Preparing wheel metadata: started                                                                                                                   subprocess.py:195
+               Preparing wheel metadata: finished with status 'done'                                                                                               subprocess.py:195
+           Collecting mdurl~=0.1                                                                                                                                   subprocess.py:195
+             Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)                                                                                                   subprocess.py:195
+[05:00:23] Collecting pydantic-core==2.33.2                                                                                                                        subprocess.py:195
+             Using cached pydantic_core-2.33.2.tar.gz (435 kB)                                                                                                     subprocess.py:195
+             Installing build dependencies: started                                                                                                                subprocess.py:195
+[05:00:26]   Installing build dependencies: finished with status 'done'                                                                                            subprocess.py:195
+             Getting requirements to build wheel: started                                                                                                          subprocess.py:195
+             Getting requirements to build wheel: finished with status 'done'                                                                                      subprocess.py:195
+               Preparing wheel metadata: started                                                                                                                   subprocess.py:195
+               Preparing wheel metadata: finished with status 'done'                                                                                               subprocess.py:195
+[05:00:27] Collecting annotated-types>=0.6.0                                                                                                                       subprocess.py:195
+             Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)                                                                                           subprocess.py:195
+           Collecting typing-inspection>=0.4.0                                                                                                                     subprocess.py:195
+             Using cached typing_inspection-0.4.1-py3-none-any.whl (14 kB)                                                                                         subprocess.py:195
+           Building wheels for collected packages: zxing-cpp, psutil, pyyaml, MarkupSafe, pydantic-core                                                            subprocess.py:195
+             Building wheel for zxing-cpp (PEP 517): started                                                                                                       subprocess.py:195
+             Building wheel for zxing-cpp (PEP 517): finished with status 'error'                                                                                  subprocess.py:195
+             ERROR: Command errored out with exit status 1:                                                                                                        subprocess.py:195
+              command: /home/mwenesi/billo-project/mobile/build/billo/android/gradle/app/build/python/env/debug/bin/python                                         subprocess.py:195
+           /home/mwenesi/billo-project/mobile/build/billo/android/gradle/app/build/python/env/debug/lib/python3.10/site-packages/pip/_vendor/pep517/_in_process.py                  
+           build_wheel /tmp/tmpuo1k5jeu                                                                                                                                             
+                  cwd: /tmp/pip-install-6f4xzoiq/zxing-cpp                                                                                                         subprocess.py:195
+             Complete output (84 lines):                                                                                                                           subprocess.py:195
+             toml section missing PosixPath('pyproject.toml') does not contain a tool.setuptools_scm section                                                       subprocess.py:195
+             /tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are        subprocess.py:195
+           deprecated.                                                                                                                                                              
+             !!                                                                                                                                                    subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+                     ********************************************************************************                                                              subprocess.py:195
+                     Please consider removing the following classifiers in favor of a SPDX license expression:                                                     subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+                     License :: OSI Approved :: Apache Software License                                                                                            subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+                     See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.                                                subprocess.py:195
+                     ********************************************************************************                                                              subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+             !!                                                                                                                                                    subprocess.py:195
+               self._finalize_license_expression()                                                                                                                 subprocess.py:195
+             running bdist_wheel                                                                                                                                   subprocess.py:195
+             running build                                                                                                                                         subprocess.py:195
+             running build_ext                                                                                                                                     subprocess.py:195
+             CMake Error at /usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:49 (message):                                                              subprocess.py:195
+               Could not find compiler set in environment variable CC:                                                                                             subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+               Chaquopy_cannot_compile_native_code.                                                                                                                subprocess.py:195
+             Call Stack (most recent call first):                                                                                                                  subprocess.py:195
+               CMakeLists.txt:2 (project)                                                                                                                          subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+             CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage                                                                                           subprocess.py:195
+             CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage                                                                                         subprocess.py:195
+             -- Configuring incomplete, errors occurred!                                                                                                           subprocess.py:195
+             Traceback (most recent call last):                                                                                                                    subprocess.py:195
+               File                                                                                                                                                subprocess.py:195
+           "/home/mwenesi/billo-project/mobile/build/billo/android/gradle/app/build/python/env/debug/lib/python3.10/site-packages/pip/_vendor/pep517/_in_process.p                  
+           y", line 280, in <module>                                                                                                                                                
+                 main()                                                                                                                                            subprocess.py:195
+               File                                                                                                                                                subprocess.py:195
+           "/home/mwenesi/billo-project/mobile/build/billo/android/gradle/app/build/python/env/debug/lib/python3.10/site-packages/pip/_vendor/pep517/_in_process.p                  
+           y", line 263, in main                                                                                                                                                    
+                 json_out['return_val'] = hook(**hook_input['kwargs'])                                                                                             subprocess.py:195
+               File                                                                                                                                                subprocess.py:195
+           "/home/mwenesi/billo-project/mobile/build/billo/android/gradle/app/build/python/env/debug/lib/python3.10/site-packages/pip/_vendor/pep517/_in_process.p                  
+           y", line 204, in build_wheel                                                                                                                                             
+                 return _build_backend().build_wheel(wheel_directory, config_settings,                                                                             subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 435, in build_wheel                          subprocess.py:195
+                 return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])                                                                        subprocess.py:195
+[05:00:28]     File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 423, in _build                               subprocess.py:195
+                 return self._build_with_temp_dir(                                                                                                                 subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 404, in _build_with_temp_dir                 subprocess.py:195
+                 self.run_setup()                                                                                                                                  subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 317, in run_setup                            subprocess.py:195
+                 exec(code, locals())                                                                                                                              subprocess.py:195
+               File "<string>", line 49, in <module>                                                                                                               subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/__init__.py", line 115, in setup                                  subprocess.py:195
+                 return distutils.core.setup(**attrs)                                                                                                              subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup                           subprocess.py:195
+                 return run_commands(dist)                                                                                                                         subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands                    subprocess.py:195
+                 dist.run_commands()                                                                                                                               subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands                   subprocess.py:195
+                 self.run_command(cmd)                                                                                                                             subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command                               subprocess.py:195
+                 super().run_command(command)                                                                                                                      subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command                    subprocess.py:195
+                 cmd_obj.run()                                                                                                                                     subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/command/bdist_wheel.py", line 370, in run                         subprocess.py:195
+                 self.run_command("build")                                                                                                                         subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command                      subprocess.py:195
+                 self.distribution.run_command(command)                                                                                                            subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command                               subprocess.py:195
+                 super().run_command(command)                                                                                                                      subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command                    subprocess.py:195
+                 cmd_obj.run()                                                                                                                                     subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/command/build.py", line 135, in run                    subprocess.py:195
+                 self.run_command(cmd_name)                                                                                                                        subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command                      subprocess.py:195
+                 self.distribution.run_command(command)                                                                                                            subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command                               subprocess.py:195
+                 super().run_command(command)                                                                                                                      subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command                    subprocess.py:195
+                 cmd_obj.run()                                                                                                                                     subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/command/build_ext.py", line 96, in run                            subprocess.py:195
+                 _build_ext.run(self)                                                                                                                              subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 368, in run                subprocess.py:195
+                 self.build_extensions()                                                                                                                           subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 484, in build_extensions   subprocess.py:195
+                 self._build_extensions_serial()                                                                                                                   subprocess.py:195
+               File "/tmp/pip-build-env-ef13wyru/overlay/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 510, in                    subprocess.py:195
+           _build_extensions_serial                                                                                                                                                 
+                 self.build_extension(ext)                                                                                                                         subprocess.py:195
+               File "<string>", line 41, in build_extension                                                                                                        subprocess.py:195
+               File "/usr/lib/python3.10/subprocess.py", line 369, in check_call                                                                                   subprocess.py:195
+                 raise CalledProcessError(retcode, cmd)                                                                                                            subprocess.py:195
+             subprocess.CalledProcessError: Command '['cmake', '/tmp/pip-install-6f4xzoiq/zxing-cpp',                                                              subprocess.py:195
+           '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/pip-install-6f4xzoiq/zxing-cpp/build/lib.linux-x86_64-cpython-310',                                                               
+           '-DPython3_EXECUTABLE=/home/mwenesi/billo-project/mobile/build/billo/android/gradle/app/build/python/env/debug/bin/python', '-DVERSION_INFO=2.3.0',                      
+           '-DCMAKE_BUILD_TYPE=Release']' returned non-zero exit status 1.                                                                                                          
+             ----------------------------------------                                                                                                              subprocess.py:195
+           ERROR: Failed to install zxing-cpp>=2.0.0 from                                                                                                          subprocess.py:195
+           https://files.pythonhosted.org/packages/d9/f2/b781bf6119abe665069777e3c0f154752cf924fe8a55fca027243abbc555/zxing_cpp-2.3.0.tar.gz#sha256=3babedb67a4c15                  
+           c9de2c2b4c42d70af83a6c85780c1b2d9803ac64c6ae69f14e (from -r requirements.txt (line 8)).                                                                                  
+           For assistance, please raise an issue at https://github.com/chaquo/chaquopy/issues.                                                                     subprocess.py:195
+           Chaquopy: Exit status 1                                                                                                                                 subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+           > Task :app:generateDebugPythonRequirements FAILED                                                                                                      subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+           [Incubating] Problems report is available at:                                                                                                           subprocess.py:195
+           file:///home/mwenesi/billo-project/mobile/build/billo/android/gradle/build/reports/problems/problems-report.html                                                         
+                                                                                                                                                                   subprocess.py:195
+           FAILURE: Build failed with an exception.                                                                                                                subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+           * What went wrong:                                                                                                                                      subprocess.py:195
+           Execution failed for task ':app:generateDebugPythonRequirements'.                                                                                       subprocess.py:195
+           > Process 'command '/home/mwenesi/billo-project/mobile/build/billo/android/gradle/app/build/python/env/debug/bin/python'' finished with non-zero exit   subprocess.py:195
+           value 1                                                                                                                                                                  
+                                                                                                                                                                   subprocess.py:195
+             To view full details in Android Studio:                                                                                                               subprocess.py:195
+             * Click the 'Build: failed' caption to the left of this message.                                                                                      subprocess.py:195
+             * Then scroll up to see the full output.                                                                                                              subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+           * Try:                                                                                                                                                  subprocess.py:195
+           > Run with --stacktrace option to get the stack trace.                                                                                                  subprocess.py:195
+           > Run with --info or --debug option to get more log output.                                                                                             subprocess.py:195
+           > Run with --scan to get full insights.                                                                                                                 subprocess.py:195
+           > Get more help at https://help.gradle.org.                                                                                                             subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+           Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.                                                             subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+           You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.               subprocess.py:195
+                                                                                                                                                                   subprocess.py:195
+           For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle            subprocess.py:195
+           documentation.                                                                                                                                                           
+                                                                                                                                                                   subprocess.py:195
+           BUILD FAILED in 1m                                                                                                                                      subprocess.py:195
+           2 actionable tasks: 2 executed                                                                                                                          subprocess.py:195
+           >>> Return code: 1                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Building... errored                                                                                                                                         gradle.py:323
+                                                                                                                                                                      __main__.py:42
+           Error while building project.                                                                                                                              __main__.py:43
+           Saving log... started                                                                                                                                      console.py:438
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/platforms/android/gradle.py:325 in build_app                                                     │
+│                                                                                                                                                                                  │
+│   322 │   │   self.console.info("Building Android APK...", prefix=app.app_name)                                                                                                  │
+│   323 │   │   with self.console.wait_bar("Building..."):                                                                                                                         │
+│   324 │   │   │   try:                                                                                                                                                           │
+│ ❱ 325 │   │   │   │   self.run_gradle(app, ["assembleDebug"])                                                                                                                    │
+│   326 │   │   │   except subprocess.CalledProcessError as e:                                                                                                                     │
+│   327 │   │   │   │   raise BriefcaseCommandError("Error while building project.") from e                                                                                        │
+│   328                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                    │
+│ │    app = <com.billo.billo v0.1.0 AppConfig>                                               │                                                                                    │
+│ │ kwargs = {}                                                                               │                                                                                    │
+│ │   self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x74059333d030> │                                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────╯                                                                                    │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/platforms/android/gradle.py:119 in run_gradle                                                    │
+│                                                                                                                                                                                  │
+│   116 │   │   self.tools.android_sdk.verify_emulator()                                                                                                                           │
+│   117 │   │                                                                                                                                                                      │
+│   118 │   │   gradlew = "gradlew.bat" if self.tools.host_os == "Windows" else "gradlew"                                                                                          │
+│ ❱ 119 │   │   self.tools.subprocess.run(                                                                                                                                         │
+│   120 │   │   │   # Windows needs the full path to `gradlew`; macOS & Linux can find it                                                                                          │
+│   121 │   │   │   # via `./gradlew`. For simplicity of implementation, we always provide                                                                                         │
+│   122 │   │   │   # the full path.                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                   │
+│ │     app = <com.billo.billo v0.1.0 AppConfig>                                               │                                                                                   │
+│ │    args = ['assembleDebug']                                                                │                                                                                   │
+│ │ gradlew = 'gradlew'                                                                        │                                                                                   │
+│ │    self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x74059333d030> │                                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                   │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/integrations/subprocess.py:144 in inner                                                          │
+│                                                                                                                                                                                  │
+│   141 │   │   │   with sub.tools.console.release_console_control():                                                                                                              │
+│   142 │   │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                              │
+│   143 │   │   else:                                                                                                                                                              │
+│ ❱ 144 │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                                  │
+│   145 │                                                                                                                                                                          │
+│   146 │   return inner                                                                                                                                                           │
+│   147                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────╮                        │
+│ │                    args = [PosixPath('/home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew'), '--console', 'plain', 'assembleDebug'] │                        │
+│ │ remove_dynamic_elements = False                                                                                                                       │                        │
+│ │                     sub = <briefcase.integrations.subprocess.Subprocess object at 0x740591cb99f0>                                                     │                        │
+│ │            wrapped_args = ()                                                                                                                          │                        │
+│ │          wrapped_kwargs = {                                                                                                                           │                        │
+│ │                           │   'env': {                                                                                                                │                        │
+│ │                           │   │   'ANDROID_HOME': '/home/mwenesi/.cache/briefcase/tools/android_sdk',                                                 │                        │
+│ │                           │   │   'ANDROID_SDK_ROOT': '/home/mwenesi/.cache/briefcase/tools/android_sdk',                                             │                        │
+│ │                           │   │   'JAVA_HOME': '/home/mwenesi/.cache/briefcase/tools/java17'                                                          │                        │
+│ │                           │   },                                                                                                                      │                        │
+│ │                           │   'cwd': PosixPath('/home/mwenesi/billo-project/mobile/build/billo/android/gradle'),                                      │                        │
+│ │                           │   'check': True,                                                                                                          │                        │
+│ │                           │   'encoding': 'UTF-8'                                                                                                     │                        │
+│ │                           }                                                                                                                           │                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                        │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/integrations/subprocess.py:539 in run                                                            │
+│                                                                                                                                                                                  │
+│   536 │   │   # caller sets stream_output=False, then ensure_console_is_safe() will                                                                                              │
+│   537 │   │   # disable any dynamic console elements while the command runs.                                                                                                     │
+│   538 │   │   if stream_output:                                                                                                                                                  │
+│ ❱ 539 │   │   │   return self._run_and_stream_output(args, filter_func=filter_func, **kwargs)                                                                                    │
+│   540 │   │                                                                                                                                                                      │
+│   541 │   │   # Can't filter non-streamed output.                                                                                                                                │
+│   542 │   │   if filter_func:                                                                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────╮                                  │
+│ │          args = [PosixPath('/home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew'), '--console', 'plain', 'assembleDebug'] │                                  │
+│ │   filter_func = None                                                                                                                        │                                  │
+│ │        kwargs = {                                                                                                                           │                                  │
+│ │                 │   'env': {                                                                                                                │                                  │
+│ │                 │   │   'ANDROID_HOME': '/home/mwenesi/.cache/briefcase/tools/android_sdk',                                                 │                                  │
+│ │                 │   │   'ANDROID_SDK_ROOT': '/home/mwenesi/.cache/briefcase/tools/android_sdk',                                             │                                  │
+│ │                 │   │   'JAVA_HOME': '/home/mwenesi/.cache/briefcase/tools/java17'                                                          │                                  │
+│ │                 │   },                                                                                                                      │                                  │
+│ │                 │   'cwd': PosixPath('/home/mwenesi/billo-project/mobile/build/billo/android/gradle'),                                      │                                  │
+│ │                 │   'check': True,                                                                                                          │                                  │
+│ │                 │   'encoding': 'UTF-8'                                                                                                     │                                  │
+│ │                 }                                                                                                                           │                                  │
+│ │          self = <briefcase.integrations.subprocess.Subprocess object at 0x740591cb99f0>                                                     │                                  │
+│ │ stream_output = True                                                                                                                        │                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                  │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/integrations/subprocess.py:615 in _run_and_stream_output                                         │
+│                                                                                                                                                                                  │
+│   612 │   │   self._log_return_code(return_code)                                                                                                                                 │
+│   613 │   │                                                                                                                                                                      │
+│   614 │   │   if check and return_code:                                                                                                                                          │
+│ ❱ 615 │   │   │   raise subprocess.CalledProcessError(return_code, args, stderr=stderr)                                                                                          │
+│   616 │   │                                                                                                                                                                      │
+│   617 │   │   return subprocess.CompletedProcess(args, return_code, stderr=stderr)                                                                                               │
+│   618                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────────╮                                    │
+│ │        args = [PosixPath('/home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew'), '--console', 'plain', 'assembleDebug'] │                                    │
+│ │       check = True                                                                                                                        │                                    │
+│ │ filter_func = None                                                                                                                        │                                    │
+│ │      kwargs = {                                                                                                                           │                                    │
+│ │               │   'env': {                                                                                                                │                                    │
+│ │               │   │   'ANDROID_HOME': '/home/mwenesi/.cache/briefcase/tools/android_sdk',                                                 │                                    │
+│ │               │   │   'ANDROID_SDK_ROOT': '/home/mwenesi/.cache/briefcase/tools/android_sdk',                                             │                                    │
+│ │               │   │   'JAVA_HOME': '/home/mwenesi/.cache/briefcase/tools/java17'                                                          │                                    │
+│ │               │   },                                                                                                                      │                                    │
+│ │               │   'cwd': PosixPath('/home/mwenesi/billo-project/mobile/build/billo/android/gradle'),                                      │                                    │
+│ │               │   'encoding': 'UTF-8',                                                                                                    │                                    │
+│ │               │   'stdout': -1,                                                                                                           │                                    │
+│ │               │   'stderr': -2,                                                                                                           │                                    │
+│ │               │   'bufsize': 1                                                                                                            │                                    │
+│ │               }                                                                                                                           │                                    │
+│ │     process = <Popen: returncode: 1 args: ['/home/mwenesi/billo-project/mobile/build/billo...>                                            │                                    │
+│ │ return_code = 1                                                                                                                           │                                    │
+│ │        self = <briefcase.integrations.subprocess.Subprocess object at 0x740591cb99f0>                                                     │                                    │
+│ │      stderr = None                                                                                                                        │                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                    │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command '[PosixPath('/home/mwenesi/billo-project/mobile/build/billo/android/gradle/gradlew'), '--console', 'plain', 'assembleDebug']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/__main__.py:27 in main                                                                           │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                             │
+│ │       command = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x74059333d030> │                                                                             │
+│ │       console = <briefcase.console.Console object at 0x74059368ee60>                             │                                                                             │
+│ │             e = BriefcaseCommandError('Error while building project.')                           │                                                                             │
+│ │ extra_cmdline = []                                                                               │                                                                             │
+│ │       options = {                                                                                │                                                                             │
+│ │                 │   'update': False,                                                             │                                                                             │
+│ │                 │   'update_requirements': False,                                                │                                                                             │
+│ │                 │   'update_support': False,                                                     │                                                                             │
+│ │                 │   'update_stub': False,                                                        │                                                                             │
+│ │                 │   'update_resources': False,                                                   │                                                                             │
+│ │                 │   'no_update': False,                                                          │                                                                             │
+│ │                 │   'test_mode': False                                                           │                                                                             │
+│ │                 }                                                                                │                                                                             │
+│ │     overrides = {}                                                                               │                                                                             │
+│ │        result = 200                                                                              │                                                                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                             │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/commands/build.py:154 in __call__                                                                │
+│                                                                                                                                                                                  │
+│   151 │   │                                                                                                                                                                      │
+│   152 │   │   state = None                                                                                                                                                       │
+│   153 │   │   for _, app_obj in sorted(apps_to_build.items()):                                                                                                                   │
+│ ❱ 154 │   │   │   state = self._build_app(                                                                                                                                       │
+│   155 │   │   │   │   app_obj,                                                                                                                                                   │
+│   156 │   │   │   │   update=update,                                                                                                                                             │
+│   157 │   │   │   │   update_requirements=update_requirements,                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                       │
+│ │                   _ = 'billo'                                                                          │                                                                       │
+│ │                 app = None                                                                             │                                                                       │
+│ │            app_name = None                                                                             │                                                                       │
+│ │             app_obj = <com.billo.billo v0.1.0 AppConfig>                                               │                                                                       │
+│ │       apps_to_build = {'billo': <com.billo.billo v0.1.0 AppConfig>}                                    │                                                                       │
+│ │           no_update = False                                                                            │                                                                       │
+│ │             options = {}                                                                               │                                                                       │
+│ │                self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x74059333d030> │                                                                       │
+│ │               state = None                                                                             │                                                                       │
+│ │           test_mode = False                                                                            │                                                                       │
+│ │              update = False                                                                            │                                                                       │
+│ │ update_requirements = False                                                                            │                                                                       │
+│ │    update_resources = False                                                                            │                                                                       │
+│ │         update_stub = False                                                                            │                                                                       │
+│ │      update_support = False                                                                            │                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                       │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/commands/build.py:90 in _build_app                                                               │
+│                                                                                                                                                                                  │
+│    87 │   │                                                                                                                                                                      │
+│    88 │   │   self.verify_app(app)                                                                                                                                               │
+│    89 │   │                                                                                                                                                                      │
+│ ❱  90 │   │   state = self.build_app(app, **full_options(state, options))                                                                                                        │
+│    91 │   │                                                                                                                                                                      │
+│    92 │   │   qualifier = " (test mode)" if app.test_mode else ""                                                                                                                │
+│    93 │   │   self.console.info(                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                       │
+│ │                 app = <com.billo.billo v0.1.0 AppConfig>                                               │                                                                       │
+│ │           no_update = False                                                                            │                                                                       │
+│ │             options = {}                                                                               │                                                                       │
+│ │                self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x74059333d030> │                                                                       │
+│ │               state = None                                                                             │                                                                       │
+│ │              update = False                                                                            │                                                                       │
+│ │ update_requirements = False                                                                            │                                                                       │
+│ │    update_resources = False                                                                            │                                                                       │
+│ │         update_stub = False                                                                            │                                                                       │
+│ │      update_support = False                                                                            │                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                       │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/platforms/android/gradle.py:327 in build_app                                                     │
+│                                                                                                                                                                                  │
+│   324 │   │   │   try:                                                                                                                                                           │
+│   325 │   │   │   │   self.run_gradle(app, ["assembleDebug"])                                                                                                                    │
+│   326 │   │   │   except subprocess.CalledProcessError as e:                                                                                                                     │
+│ ❱ 327 │   │   │   │   raise BriefcaseCommandError("Error while building project.") from e                                                                                        │
+│   328                                                                                                                                                                            │
+│   329                                                                                                                                                                            │
+│   330 class GradleRunCommand(GradleMixin, RunCommand):                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                    │
+│ │    app = <com.billo.billo v0.1.0 AppConfig>                                               │                                                                                    │
+│ │ kwargs = {}                                                                               │                                                                                    │
+│ │   self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x74059333d030> │                                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────╯                                                                                    │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Error while building project.
+           Collecting extra information for log... started                                                                                                            console.py:473
+                                                                                                                                                                      console.py:477
+           Extra information:                                                                                                                                         console.py:478
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     /home/mwenesi/.cache/briefcase/tools/android_sdk/cmdline-tools/19.0/bin/sdkmanager --list_installed                                             subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/mwenesi/billo-project/mobile                                                                                                              subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     ANDROID_HOME=/home/mwenesi/.cache/briefcase/tools/android_sdk                                                                                   subprocess.py:838
+           >>>     ANDROID_SDK_ROOT=/home/mwenesi/.cache/briefcase/tools/android_sdk                                                                               subprocess.py:838
+           >>>     JAVA_HOME=/home/mwenesi/.cache/briefcase/tools/java17                                                                                           subprocess.py:838
+[05:00:29] >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Loading package information...                                                                                                                  subprocess.py:838
+           >>>     Loading local repository...                                                                                                                     subprocess.py:838
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:838
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:838
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:838
+           >>>     Installed packages:                                                                                                                             subprocess.py:838
+           >>>       Path                 | Version | Description                | Location                                                                        subprocess.py:838
+           >>>       -------              | ------- | -------                    | -------                                                                         subprocess.py:838
+           >>>       build-tools;35.0.0   | 35.0.0  | Android SDK Build-Tools 35 | build-tools/35.0.0                                                              subprocess.py:838
+           >>>       emulator             | 36.1.9  | Android Emulator           | emulator                                                                        subprocess.py:838
+           >>>       platform-tools       | 36.0.0  | Android SDK Platform-Tools | platform-tools                                                                  subprocess.py:838
+           >>>       platforms;android-35 | 2       | Android SDK Platform 35    | platforms/android-35                                                            subprocess.py:838
+           >>>                                                                                                                                                     subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Collecting extra information for log... done                                                                                                               console.py:473

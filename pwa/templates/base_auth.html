@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .auth-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+            min-height: 100vh;
+        }
+        .card {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .form-input {
+            @apply w-full px-4 py-3 rounded-lg bg-white bg-opacity-90 border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition duration-200;
+        }
+        .form-label {
+            @apply block text-sm font-medium text-gray-100 mb-1;
+        }
+    </style>
+</head>
+<body class="auth-bg flex items-center justify-center p-4">
+    <div class="max-w-md w-full space-y-6 p-8 card rounded-2xl shadow-2xl">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-white mb-2">{{ title }}</h1>
+            <p class="text-gray-200">{% block subtitle %}{% endblock %}</p>
+        </div>
+        
+        {% block content %}{% endblock %}
+        
+        <div class="mt-6 text-center">
+            {% block footer %}{% endblock %}
+            <a href="/" class="text-sm font-medium text-blue-200 hover:text-white block mt-4">
+                Back to Home
+            </a>
+        </div>
+    </div>
+</body>
+</html>

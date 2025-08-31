@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .welcome-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+            min-height: 100vh;
+        }
+        .card {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="welcome-bg flex items-center justify-center p-4">
+    <div class="max-w-md w-full space-y-8 p-8 card rounded-2xl shadow-2xl">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold text-white mb-2">Welcome to Billo</h1>
+            <p class="text-gray-200">Restaurant management made simple</p>
+        </div>
+        
+        <div class="mt-8 space-y-4">
+            <a href="/login" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">
+                Sign In
+            </a>
+            <a href="/signup" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-blue-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">
+                Create Account
+            </a>
+        </div>
+        
+        <div class="mt-6 text-center">
+            <a href="/dashboard" class="text-sm font-medium text-blue-200 hover:text-white">
+                Continue as Guest
+            </a>
+        </div>
+    </div>
+</body>
+</html>

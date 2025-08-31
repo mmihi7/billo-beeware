@@ -1,0 +1,236 @@
+Date/Time:       2025-08-28 23:45:33 
+Command line:    /home/mwenesi/billo-project/mobile/.venv/bin/briefcase dev
+
+OS Release:      Linux 6.6.87.2-microsoft-standard-WSL2
+OS Version:      #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+Architecture:    x86_64
+Platform:        Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+
+Python exe:      /home/mwenesi/billo-project/mobile/.venv/bin/python
+Python version:  3.10.18 (main, Jun  4 2025, 08:56:00) [GCC 13.3.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.25
+Target platform: linux
+Target format:   system
+
+Environment Variables:
+	DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+	DISPLAY=:0
+	HOME=/home/mwenesi
+	HOSTTYPE=x86_64
+	LANG=C.UTF-8
+	LESSCLOSE=/usr/bin/lesspipe %s %s
+	LESSOPEN=| /usr/bin/lesspipe %s
+	LOGNAME=mwenesi
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+	NAME=MIHI-PC
+	OLDPWD=/home/mwenesi/billo-project/mobile
+	PATH=/home/mwenesi/billo-project/mobile/.venv/bin:/home/mwenesi/billo-project/mobile/.venv/bin:/home/mwenesi/.local/bin:/home/mwenesi/.local/bin:/home/mwenesi/.local/bin:/home/mwenesi/.local/bin:/home/mwenesi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/Users/mwene/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/mwene/.ollama/models:/mnt/c/Users/mwene/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mwene/AppData/Local/Programs/Windsurf/bin:/mnt/c/Users/mwene/AppData/Local/Programs/Ollama:/mnt/c/Users/mwene/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python312:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/mwene/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/ProgramData/anaconda3/Scripts/anaconda.exe:/mnt/c/Users/mwene/espeak-ng:/mnt/c/Program Files/eSpeak NG/:/mnt/c/ProgramData/Microsoft/Windows/Start Menu/Programs/Anaconda (anaconda3)/Anaconda PowerShell Prompt.lnk:/mnt/c/Users/mwene/mingw32/bin:/mnt/c/Users/mwene/ffmpeg/bin:/mnt/c/Users/mwene/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Program Files/eSpeak NG/espeak-ng.exe:/mnt/c/Program Files/rhvoice.org/RHVoice/lib/rhvoicesvr.dll:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/mwene/supabase_cli:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.7.6-hotspot/bin:/mnt/c/Users/mwene/Gradle/gradle/bin:/mnt/c/Users/mwene/Android/cmdline-tools/latest/bin:/mnt/c/Users/mwene/Android/platform-tools:/mnt/c/Program Files/PostgreSQL/17/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mwene/Android/tools:/mnt/c/Users/mwene/Android/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Android/platform-tools:/mnt/c/Users/mwene/AppData/Local/pnpm:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/mwene/.local/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/mwene/.ollama/models:/mnt/c/Users/mwene/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mwene/AppData/Local/Programs/Windsurf/bin:/mnt/c/Users/mwene/AppData/Local/Programs/Ollama:/mnt/c/Users/mwene/AppData/Local/Programs/Python/Python312:/mnt/c/Users/mwene/AppData/Roaming/npm:/mnt/c/Users/mwene/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mwene/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/mwene/.windsurf/extensions/ms-python.debugpy-2025.6.0-win32-x64/bundled/scripts/noConfigScripts:/snap/bin
+	POETRY_ACTIVE=1
+	PS1=(billo-py3.10) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+	PULSE_SERVER=unix:/mnt/wslg/PulseServer
+	PWD=/home/mwenesi/billo-project/mobile
+	SHELL=/bin/bash
+	SHLVL=2
+	TERM=xterm-256color
+	USER=mwenesi
+	VIRTUAL_ENV=/home/mwenesi/billo-project/mobile/.venv
+	VIRTUAL_ENV_PROMPT=billo-py3.10
+	WAYLAND_DISPLAY=wayland-0
+	WSL2_GUI_APPS_ENABLED=1
+	WSLENV=
+	WSL_DISTRO_NAME=Ubuntu
+	WSL_INTEROP=/run/WSL/174991_interop
+	XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+	XDG_RUNTIME_DIR=/run/user/1000/
+	_=/home/mwenesi/.local/bin/poetry
+
+pyproject.toml:
+[tool.poetry]
+name = "billo"
+version = "0.1.0"
+description = "Billo - Restaurant Management System"
+authors = ["Mihi"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "billo", from = "src" }
+]
+
+[tool.briefcase]
+project_name = "Billo"
+bundle = "com.billo"
+version = "0.1.0"
+author = "Mihi"
+author_email = "your.email@example.com"
+description = "Restaurant Management System"
+license = {file = "LICENSE"}
+
+[tool.briefcase.app.billo]
+formal_name = "Billo"
+description = "Restaurant Management System"
+sources = ["src/billo"]
+icon = "../shared/assets/images/logo.png"
+supported = true
+package = "billo"
+
+[tool.briefcase.app.billo.mobile]
+requires = [
+    "supabase>=2.18.1",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.24.0"
+]
+
+[tool.briefcase.app.billo.mobile.android]
+package_name = "com.billo"
+permissions = [
+    "INTERNET",
+    "ACCESS_NETWORK_STATE"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "billo"
+version = "0.1.0"
+description = "Restaurant Management System"
+authors = [
+    {name = "Mihi"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "briefcase>=0.3.25",
+    "toga>=0.4.0",
+    "supabase>=2.18.1",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.24.0"
+]
+
+Briefcase Log:
+[23:45:33]                                                                                                                                                                dev.py:248
+           [billo] Starting in dev mode...                                                                                                                                dev.py:248
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     /home/mwenesi/billo-project/mobile/.venv/bin/python -c 'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("billo",         subprocess.py:838
+           run_name="__main__", alter_sys=True)'                                                                                                                                    
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/mwenesi                                                                                                                                   subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     PYTHONPATH=/home/mwenesi/billo-project/mobile/src                                                                                               subprocess.py:838
+           >>>     PYTHONUNBUFFERED=1                                                                                                                              subprocess.py:838
+           >>>     PYTHONDEVMODE=1                                                                                                                                 subprocess.py:838
+           >>>     PYTHONUTF8=1                                                                                                                                    subprocess.py:838
+           ===========================================================================                                                                                    run.py:169
+           Traceback (most recent call last):                                                                                                                      subprocess.py:195
+             File "<string>", line 1, in <module>                                                                                                                  subprocess.py:195
+             File "/usr/lib/python3.10/runpy.py", line 224, in run_module                                                                                          subprocess.py:195
+               return _run_module_code(code, init_globals, run_name, mod_spec)                                                                                     subprocess.py:195
+             File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code                                                                                     subprocess.py:195
+               _run_code(code, mod_globals, init_globals,                                                                                                          subprocess.py:195
+             File "/usr/lib/python3.10/runpy.py", line 86, in _run_code                                                                                            subprocess.py:195
+               exec(code, run_globals)                                                                                                                             subprocess.py:195
+             File "/home/mwenesi/billo-project/mobile/src/billo/__main__.py", line 5, in <module>                                                                  subprocess.py:195
+               from .app import Billo                                                                                                                              subprocess.py:195
+             File "/home/mwenesi/billo-project/mobile/src/billo/app.py", line 8, in <module>                                                                       subprocess.py:195
+               from .screens.onboarding.welcome import create_welcome_screen                                                                                       subprocess.py:195
+             File "/home/mwenesi/billo-project/mobile/src/billo/screens/onboarding/welcome.py", line 4, in <module>                                                subprocess.py:195
+               from toga.style.pack import COLUMN, ROW, CENTER, PADDED                                                                                             subprocess.py:195
+           ImportError: cannot import name 'PADDED' from 'toga.style.pack'                                                                                         subprocess.py:195
+           (/home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/toga/style/pack.py)                                                                               
+                                                                                                                                                                      __main__.py:42
+           Problem running app billo.                                                                                                                                 __main__.py:43
+           Saving log... started                                                                                                                                      console.py:438
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/__main__.py:27 in main                                                                           │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                      │
+│ │       command = <briefcase.platforms.linux.system.LinuxSystemDevCommand object at 0x713732ba9030>                       │                                                      │
+│ │       console = <briefcase.console.Console object at 0x713732f02e60>                                                    │                                                      │
+│ │             e = BriefcaseCommandError('Problem running app billo.')                                                     │                                                      │
+│ │ extra_cmdline = []                                                                                                      │                                                      │
+│ │       options = {'appname': None, 'update_requirements': False, 'run_app': True, 'test_mode': False, 'passthrough': []} │                                                      │
+│ │     overrides = {}                                                                                                      │                                                      │
+│ │        result = 200                                                                                                     │                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                      │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/commands/dev.py:250 in __call__                                                                  │
+│                                                                                                                                                                                  │
+│   247 │   │   │   else:                                                                                                                                                          │
+│   248 │   │   │   │   self.console.info("Starting in dev mode...", prefix=app.app_name)                                                                                          │
+│   249 │   │   │   env = self.get_environment(app)                                                                                                                                │
+│ ❱ 250 │   │   │   return self.run_dev_app(                                                                                                                                       │
+│   251 │   │   │   │   app,                                                                                                                                                       │
+│   252 │   │   │   │   env,                                                                                                                                                       │
+│   253 │   │   │   │   passthrough=[] if passthrough is None else passthrough,                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────╮                             │
+│ │                 app = <com.billo.billo v0.1.0 AppConfig>                                                                                         │                             │
+│ │             appname = None                                                                                                                       │                             │
+│ │      dist_info_path = PosixPath('/home/mwenesi/billo-project/mobile/src/billo.dist-info')                                                        │                             │
+│ │                 env = {'PYTHONPATH': '/home/mwenesi/billo-project/mobile/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'} │                             │
+│ │             options = {}                                                                                                                         │                             │
+│ │         passthrough = []                                                                                                                         │                             │
+│ │             run_app = True                                                                                                                       │                             │
+│ │                self = <briefcase.platforms.linux.system.LinuxSystemDevCommand object at 0x713732ba9030>                                          │                             │
+│ │           test_mode = False                                                                                                                      │                             │
+│ │ update_requirements = False                                                                                                                      │                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                             │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/commands/dev.py:168 in run_dev_app                                                               │
+│                                                                                                                                                                                  │
+│   165 │   │   │   )                                                                                                                                                              │
+│   166 │   │   │                                                                                                                                                                  │
+│   167 │   │   │   # Start streaming logs for the app.                                                                                                                            │
+│ ❱ 168 │   │   │   self._stream_app_logs(                                                                                                                                         │
+│   169 │   │   │   │   app,                                                                                                                                                       │
+│   170 │   │   │   │   popen=app_popen,                                                                                                                                           │
+│   171 │   │   │   │   clean_output=False,                                                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────────────────────╮           │
+│ │         app = <com.billo.billo v0.1.0 AppConfig>                                                                                                                   │           │
+│ │   app_popen = <Popen: returncode: 1 args: ['/home/mwenesi/billo-project/mobile/.venv/bin/p...>                                                                     │           │
+│ │     cmdline = ['/home/mwenesi/billo-project/mobile/.venv/bin/python', '-c', 'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("billo", '+36] │           │
+│ │         env = {'PYTHONPATH': '/home/mwenesi/billo-project/mobile/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'}                           │           │
+│ │ main_module = 'billo'                                                                                                                                              │           │
+│ │     options = {}                                                                                                                                                   │           │
+│ │ passthrough = []                                                                                                                                                   │           │
+│ │        self = <briefcase.platforms.linux.system.LinuxSystemDevCommand object at 0x713732ba9030>                                                                    │           │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯           │
+│                                                                                                                                                                                  │
+│ /home/mwenesi/billo-project/mobile/.venv/lib/python3.10/site-packages/briefcase/commands/run.py:200 in _stream_app_logs                                                          │
+│                                                                                                                                                                                  │
+│   197 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   198 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   199 │   │   │   │   if popen.poll() != 0:                                                                                                                                      │
+│ ❱ 200 │   │   │   │   │   raise BriefcaseCommandError(f"Problem running app {app.app_name}.")                                                                                    │
+│   201 │   │                                                                                                                                                                      │
+│   202 │   │   except KeyboardInterrupt:                                                                                                                                          │
+│   203 │   │   │   pass  # Catch CTRL-C to exit normally                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                             │
+│ │          app = <com.billo.billo v0.1.0 AppConfig>                                                │                                                                             │
+│ │ clean_filter = None                                                                              │                                                                             │
+│ │ clean_output = False                                                                             │                                                                             │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x713731418e50>                       │                                                                             │
+│ │   log_stream = False                                                                             │                                                                             │
+│ │        popen = <Popen: returncode: 1 args: ['/home/mwenesi/billo-project/mobile/.venv/bin/p...>  │                                                                             │
+│ │         self = <briefcase.platforms.linux.system.LinuxSystemDevCommand object at 0x713732ba9030> │                                                                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                             │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app billo.

@@ -1,19 +1,67 @@
-[project]
+[tool.poetry]
 name = "billo"
 version = "0.1.0"
-description = "Personal Tab Manager"
-authors = [
-    {name = "Mihi"}
-]
-license = {text = "MIT"}
+description = "Customer Tab Management System"
+authors = ["Mihi"]
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3.10,<3.11"
-dependencies = [
-    "briefcase (>=0.3.25,<0.4.0)",
-    "toga (>=0.5.2,<0.6.0)"
+packages = [
+    { include = "billo", from = "src" }
 ]
 
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+# Development/runtime deps not tied to Android packaging
+briefcase = {version = ">=0.3.25,<0.4.0", extras = ["android"]}
+
+[tool.poetry.group.dev.dependencies]
+briefcase = {extras = ["android"], version = "^0.3.25"}
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=2.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+# -------------------------------------------------------------------
+# Briefcase configuration
+# -------------------------------------------------------------------
+[tool.briefcase]
+project_name = "Billo"
+bundle = "com.billo"
+version = "0.1.0"
+author = "Mihi"
+author_email = "conversationapps@gmail.com"
+description = "Customer Tab Management System"
+license = {text = "MIT"}
+
+[tool.briefcase.app.billo]
+formal_name = "Billo"
+description = "Customer Tab Management System"
+sources = ["src/billo"]
+icon = "../shared/assets/images/logo.png"
+package = "billo"
+
+requires = [
+    "toga-core==0.4.7",
+    "toga-android==0.4.7",
+    "rubicon-java==0.2.6",
+    "travertino==0.3.0",
+    "colosseum==0.2.0",
+
+    "python-dotenv==1.0.0",
+    "segno==1.5.3",   # 🔄 fixed: use a version available in Chaquopy
+    "pydantic==1.10.15",
+    "supabase==2.*",
+    "httpx==0.24.*",
+    "python-jose[cryptography]==3.3.0",
+    "python-multipart==0.0.5",
+]
+
+[tool.briefcase.app.billo.android]
+permissions = [
+    "INTERNET",
+    "ACCESS_NETWORK_STATE",
+    "CAMERA",
+    "ACCESS_FINE_LOCATION",
+    "ACCESS_COARSE_LOCATION"
+]

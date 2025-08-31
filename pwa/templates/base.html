@@ -169,7 +169,55 @@
     </div>
     
     <!-- JavaScript -->
-    <script src="/static/js/main.js"></script>
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <!-- Application Scripts -->
+    <script src="/static/js/supabase.js" type="module"></script>
+    <script src="/static/js/auth-service.js" type="module"></script>
+    <script src="/static/js/main.js" type="module"></script>
+    
     {% block extra_js %}{% endblock %}
+    
+    <!-- Initialize Auth State -->
+    <script type="module">
+        import { AuthService } from '/static/js/auth-service.js';
+        
+        // Handle auth state changes
+        window.addEventListener('auth-state-change', (event) => {
+            const { event: authEvent, session } = event.detail;
+            console.log('Auth state changed:', authEvent);
+            
+            // Handle different auth events
+            switch(authEvent) {
+                case 'SIGNED_IN':
+                    // Redirect to dashboard after successful login
+                    if (window.location.pathname === '/login') {
+                        window.location.href = '/dashboard';
+                    }
+                    break;
+                case 'SIGNED_OUT':
+                    // Redirect to login if not already there
+                    if (!window.location.pathname.includes('login')) {
+                        window.location.href = '/login';
+                    }
+                    break;
+            }
+        });
+        
+        // Check auth state on page load
+        document.addEventListener('DOMContentLoaded', async () => {
+            const isAuthenticated = await AuthService.isAuthenticated();
+            const isAuthPage = window.location.pathname.includes('login') || 
+                             window.location.pathname === '/';
+            
+            // Redirect logic
+            if (isAuthenticated && isAuthPage) {
+                window.location.href = '/dashboard';
+            } else if (!isAuthenticated && !isAuthPage) {
+                window.location.href = '/login';
+            }
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+# Generated 2025-08-31 13:33:34.816691
+toga-core==0.4.7
+toga-android==0.4.7
+rubicon-java==0.2.6
+travertino==0.3.0
+colosseum==0.2.0
+python-dotenv==1.0.0
+segno==1.5.3
+pydantic==1.10.15
+supabase==2.*
+httpx==0.24.*
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.5

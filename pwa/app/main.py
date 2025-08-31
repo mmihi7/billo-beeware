@@ -1,25 +1,39 @@
 from fastapi import FastAPI, Request, Depends, Form, HTTPException, status
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from fastapi.responses import HTMLResponse, RedirectResponse
-from fastapi.security import OAuth2PasswordRequestForm
+from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
+from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from starlette.middleware.sessions import SessionMiddleware
-from datetime import timedelta
+from datetime import timedelta, datetime
+from typing import Optional
 import os
 import secrets
 
 # Import routers and auth
 from .routers import dashboard, business_hours
-from .auth import (
-    authenticate_user,
-    create_access_token,
-    get_current_active_user,
-    ACCESS_TOKEN_EXPIRE_MINUTES
-)
+from .auth_handlers import router as auth_router
+
+# JWT Configuration
+SECRET_KEY = os.getenv("JWT_SECRET_KEY", "your-secret-key-here")
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 def create_app():
-    app = FastAPI()
+    app = FastAPI(title="Billo API",
+                 description="Billo Restaurant Management System API",
+                 version="1.0.0")
+    
+    # Configure CORS
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],  # In production, replace with your frontend URL
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
     
     # Add session middleware
     app.add_middleware(
@@ -28,6 +42,9 @@ def create_app():
         session_cookie="billo_session",
         max_age=3600  # 1 hour
     )
+    
+    # Include routers
+    app.include_router(auth_router, prefix="/api/v1", tags=["Authentication"])
     
     # Add trusted host middleware for security
     app.add_middleware(
